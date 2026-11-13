@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+data/raw/
+data/injected/
+runs/
+out/
+
+# LaTeX tables are paper sources, not repository artefacts
+analysis/*.tex

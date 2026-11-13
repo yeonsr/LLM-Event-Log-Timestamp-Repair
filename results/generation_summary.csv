@@ -1,0 +1,611 @@
+source_group,log,category,pollution,method,trial,run,candidate,n_attempts,retried,ok,first_error,issues
+archive_superseded,credit,C1,30,M2_codegen,2,credit_C1_30,0,1,0,1,,275 negative durations remain after repair.
+archive_superseded,credit,C1,30,M2_codegen,2,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C1,30,M2_codegen,3,credit_C1_30,0,1,0,1,,275 negative durations remain after repair.
+archive_superseded,credit,C1,30,M2_codegen,3,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C1,30,M2_codegen,2,credit_C1_30,0,1,0,1,,26% of repaired C1 blocks have a span outside the p10-p90 range of block_span_profile. The spacing statistic is wrong for this log. | 291 negative durations remain after repair.
+archive_superseded,credit,C1,30,M2_codegen,2,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C1,30,M2_codegen,3,credit_C1_30,0,1,0,1,,285 negative durations remain after repair.
+archive_superseded,credit,C1,30,M2_codegen,3,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C1,30,M3_codegen_pm4py,2,credit_C1_30,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\base.py"", line 3805, in get_loc     return self._engine.get_loc(cast",100% of repaired C1 blocks have a span outside the p10-p90 range of block_span_profile. The spacing statistic is wrong for this log. | 283 negative durations remain after repair.
+archive_superseded,credit,C1,30,M3_codegen_pm4py,2,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C1,30,M3_codegen_pm4py,3,credit_C1_30,0,1,0,1,,283 negative durations remain after repair.
+archive_superseded,credit,C1,30,M3_codegen_pm4py,3,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C1,30,M3_codegen_pm4py,3,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,1,credit_C2_30,0,1,0,1,,"The median repaired row moved 3815 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M2_codegen,1,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,1,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,2,credit_C2_30,0,1,0,1,,"The median repaired row moved 3663 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M2_codegen,2,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,2,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,3,credit_C2_30,0,1,0,1,,"The median repaired row moved 3663 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M2_codegen,3,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,3,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M3_codegen_pm4py,1,credit_C2_30,0,1,0,1,,"The median repaired row moved 3824 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M3_codegen_pm4py,1,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M3_codegen_pm4py,2,credit_C2_30,0,1,0,1,,"The median repaired row moved 3824 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M3_codegen_pm4py,2,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M3_codegen_pm4py,3,credit_C2_30,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""_llm_percat\out\runs\credit_C2_30\M3_codegen_pm4py_t3\cand_0\generated_repair.py"", line 178, in <module>     main()   File ""_llm_percat\out\runs\credit_C2_30\M3_codegen_pm4py_t3\cand_0\","The median repaired row moved 3824 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M3_codegen_pm4py,3,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M3_codegen_pm4py,3,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C3,30,M2_codegen,1,credit_C3_30,0,1,0,1,,"The median repaired row moved 38198 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C3,30,M2_codegen,1,credit_C3_30,,0,0,0,,
+archive_superseded,credit,C3,30,M2_codegen,1,credit_C3_30,,0,0,0,,
+archive_superseded,credit,C3,30,M2_codegen,3,credit_C3_30,0,1,0,1,,"14 negative durations remain after repair. | The median repaired row moved 38377 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C3,30,M2_codegen,3,credit_C3_30,,0,0,0,,
+archive_superseded,credit,C3,30,M3_codegen_pm4py,2,credit_C3_30,0,1,0,1,,"The median repaired row moved 38372 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C3,30,M3_codegen_pm4py,2,credit_C3_30,,0,0,0,,
+archive_superseded,credit,C3,30,M3_codegen_pm4py,2,credit_C3_30,,0,0,0,,
+archive_superseded,credit,C3,30,M3_codegen_pm4py,3,credit_C3_30,0,1,0,1,,"The median repaired row moved 38370 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C3,30,M3_codegen_pm4py,3,credit_C3_30,,0,0,0,,
+archive_superseded,credit,C3,30,M3_codegen_pm4py,3,credit_C3_30,,0,0,0,,
+archive_superseded,bpic12,C1,30,M2_codegen,1,bpic12_C1_30,0,1,0,1,,268 negative durations remain after repair.
+archive_superseded,bpic12,C1,30,M2_codegen,1,bpic12_C1_30,,0,0,0,,
+archive_superseded,bpic12,C1,30,M2_codegen,2,bpic12_C1_30,0,1,0,1,,268 negative durations remain after repair.
+archive_superseded,bpic12,C1,30,M2_codegen,2,bpic12_C1_30,,0,0,0,,
+archive_superseded,bpic12,C1,30,M2_codegen,3,bpic12_C1_30,0,1,0,1,,268 negative durations remain after repair.
+archive_superseded,bpic12,C1,30,M2_codegen,3,bpic12_C1_30,,0,0,0,,
+archive_superseded,bpic12,C1,30,M3_codegen_pm4py,1,bpic12_C1_30,0,1,0,1,,266 negative durations remain after repair.
+archive_superseded,bpic12,C1,30,M3_codegen_pm4py,1,bpic12_C1_30,,0,0,0,,
+archive_superseded,bpic12,C1,30,M3_codegen_pm4py,3,bpic12_C1_30,0,2,1,1,"TimeoutExpired: Command '['AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe', '-X', 'utf8', '_llm_percat\\out\\runs\\per_category\\bpic12_C1_30\\M3_codegen_pm4py_t3\\cand_0\\generated_repair.py', '--input",265 negative durations remain after repair.
+archive_superseded,bpic12,C1,30,M3_codegen_pm4py,3,bpic12_C1_30,,0,0,0,,
+archive_superseded,bpic12,C2,30,M2_codegen,1,bpic12_C2_30,0,1,0,1,,"The median repaired row moved 6880 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,bpic12,C2,30,M2_codegen,1,bpic12_C2_30,,0,0,0,,
+archive_superseded,bpic12,C2,30,M2_codegen,2,bpic12_C2_30,0,1,0,1,,"The median repaired row moved 4456 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,bpic12,C2,30,M2_codegen,2,bpic12_C2_30,,0,0,0,,
+archive_superseded,bpic12,C2,30,M3_codegen_pm4py,1,bpic12_C2_30,0,1,0,1,,"The median repaired row moved 3694 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,bpic12,C2,30,M3_codegen_pm4py,1,bpic12_C2_30,,0,0,0,,
+archive_superseded,bpic12,C2,30,M3_codegen_pm4py,2,bpic12_C2_30,0,1,0,1,,"The median repaired row moved 4924 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,bpic12,C2,30,M3_codegen_pm4py,2,bpic12_C2_30,,0,0,0,,
+archive_superseded,bpic12,C3,30,M2_codegen,1,bpic12_C3_30,0,1,0,1,,"The median repaired row moved 63812 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,bpic12,C3,30,M2_codegen,1,bpic12_C3_30,,0,0,0,,
+archive_superseded,bpic12,C3,30,M2_codegen,1,bpic12_C3_30,,0,0,0,,
+archive_superseded,bpic12,C3,30,M2_codegen,2,bpic12_C3_30,0,1,0,1,,"The median repaired row moved 64699 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,bpic12,C3,30,M2_codegen,2,bpic12_C3_30,,0,0,0,,
+archive_superseded,bpic12,C3,30,M3_codegen_pm4py,1,bpic12_C3_30,0,1,0,1,,"The median repaired row moved 63812 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,bpic12,C3,30,M3_codegen_pm4py,1,bpic12_C3_30,,0,0,0,,
+archive_superseded,bpic12,C3,30,M3_codegen_pm4py,2,bpic12_C3_30,0,1,0,1,,"The median repaired row moved 63812 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,bpic12,C3,30,M3_codegen_pm4py,2,bpic12_C3_30,,0,0,0,,
+archive_superseded,bpic12,C3,30,M3_codegen_pm4py,2,bpic12_C3_30,,0,0,0,,
+archive_superseded,credit,C1,30,M2_codegen,1,credit_C1_30,0,1,0,1,,275 negative durations remain after repair.
+archive_superseded,credit,C1,30,M2_codegen,1,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C1,30,M2_codegen,2,credit_C1_30,0,1,0,1,,275 negative durations remain after repair.
+archive_superseded,credit,C1,30,M2_codegen,2,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C1,30,M2_codegen,2,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C1,30,M2_codegen,3,credit_C1_30,0,1,0,1,,275 negative durations remain after repair.
+archive_superseded,credit,C1,30,M2_codegen,3,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C1,30,M2_codegen,4,credit_C1_30,0,2,1,1,"ValueError: COLLAPSED BLOCKS REMAIN: 298 of 300 C1 blocks still contain duplicate timestamps after your repair (e.g. case 142). A C1 block arrives with k identical timestamps and must leave with k distinct ones, ordered by your inferred sequence.",275 negative durations remain after repair.
+archive_superseded,credit,C1,30,M2_codegen,4,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C1,30,M3_codegen_pm4py,1,credit_C1_30,0,1,0,1,,275 negative durations remain after repair.
+archive_superseded,credit,C1,30,M3_codegen_pm4py,1,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C1,30,M3_codegen_pm4py,1,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C1,30,M3_codegen_pm4py,3,credit_C1_30,0,2,1,1,"ValueError: OBSERVED VALUE DISCARDED: in 169 of 300 C1 blocks no row kept the observed shared timestamp. That value is the block's own earliest timestamp, so exactly one event in the block is already correct. Place the first event of your inferred order ON it and extend forward.",275 negative durations remain after repair.
+archive_superseded,credit,C1,30,M3_codegen_pm4py,3,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,1,credit_C2_30,0,1,0,1,,"The median repaired row moved 3824 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M2_codegen,1,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,1,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,2,credit_C2_30,0,1,0,1,,"The median repaired row moved 3824 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M2_codegen,2,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,3,credit_C2_30,0,1,0,1,,"The median repaired row moved 3653 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M2_codegen,3,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,3,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M3_codegen_pm4py,1,credit_C2_30,0,1,0,1,,"The median repaired row moved 4230 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M3_codegen_pm4py,1,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M3_codegen_pm4py,2,credit_C2_30,0,1,0,1,,"The median repaired row moved 3824 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M3_codegen_pm4py,2,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M3_codegen_pm4py,3,credit_C2_30,0,1,0,1,,"The median repaired row moved 4243 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M3_codegen_pm4py,3,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C3,30,M2_codegen,1,credit_C3_30,0,1,0,1,,"The median repaired row moved 38512 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C3,30,M2_codegen,1,credit_C3_30,,0,0,0,,
+archive_superseded,credit,C3,30,M2_codegen,2,credit_C3_30,0,1,0,1,,"The median repaired row moved 38372 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C3,30,M2_codegen,2,credit_C3_30,,0,0,0,,
+archive_superseded,credit,C3,30,M2_codegen,3,credit_C3_30,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""_llm_percat\out\runs\per_category\credit_C3_30\M2_codegen_t3\cand_0\generated_repair.py"", line 590, in <module>     main()   File ""_llm_percat\out\runs\per_category\credit_C3_30\M2_code","The median repaired row moved 38512 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C3,30,M2_codegen,3,credit_C3_30,,0,0,0,,
+archive_superseded,credit,C3,30,M3_codegen_pm4py,2,credit_C3_30,0,1,0,1,,"The median repaired row moved 38653 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C3,30,M3_codegen_pm4py,2,credit_C3_30,,0,0,0,,
+archive_superseded,hospital,C1,30,M2_codegen,1,hospital_C1_30,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""_llm_percat\out\runs\per_category\hospital_C1_30\M2_codegen_t1\cand_0\generated_repair.py"", line 728, in <module>     main()   File ""_llm_percat\out\runs\per_category\hospital_C1_30\M2_","292 negative durations remain after repair. | The median repaired row moved 176021 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,hospital,C1,30,M2_codegen,1,hospital_C1_30,,0,0,0,,
+archive_superseded,hospital,C1,30,M2_codegen,2,hospital_C1_30,0,1,0,1,,"291 negative durations remain after repair. | The median repaired row moved 42275 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,hospital,C1,30,M2_codegen,2,hospital_C1_30,,0,0,0,,
+archive_superseded,hospital,C1,30,M2_codegen,3,hospital_C1_30,0,1,0,1,,"291 negative durations remain after repair. | The median repaired row moved 176021 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,hospital,C1,30,M2_codegen,3,hospital_C1_30,,0,0,0,,
+archive_superseded,hospital,C1,30,M3_codegen_pm4py,1,hospital_C1_30,0,1,0,1,,"291 negative durations remain after repair. | The median repaired row moved 176021 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,hospital,C1,30,M3_codegen_pm4py,1,hospital_C1_30,,0,0,0,,
+archive_superseded,hospital,C1,30,M3_codegen_pm4py,2,hospital_C1_30,0,1,0,1,,"293 negative durations remain after repair. | The median repaired row moved 109391 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,hospital,C1,30,M3_codegen_pm4py,2,hospital_C1_30,,0,0,0,,
+archive_superseded,hospital,C2,30,M2_codegen,1,hospital_C2_30,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""_llm_percat\out\runs\per_category\hospital_C2_30\M2_codegen_t1\cand_0\generated_repair.py"", line 531, in <module>     main()   File ""_llm_percat\out\runs\per_category\hospital_C2_30\M2_","The median repaired row moved 4774 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,hospital,C2,30,M2_codegen,1,hospital_C2_30,,0,0,0,,
+archive_superseded,hospital,C2,30,M2_codegen,1,hospital_C2_30,,0,0,0,,
+archive_superseded,hospital,C2,30,M2_codegen,2,hospital_C2_30,0,1,0,1,,"The median repaired row moved 6660 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,hospital,C2,30,M2_codegen,2,hospital_C2_30,,0,0,0,,
+archive_superseded,hospital,C2,30,M3_codegen_pm4py,1,hospital_C2_30,0,1,0,1,,"The median repaired row moved 57760 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,hospital,C2,30,M3_codegen_pm4py,1,hospital_C2_30,,0,0,0,,
+archive_superseded,hospital,C2,30,M3_codegen_pm4py,2,hospital_C2_30,0,1,0,1,,"The median repaired row moved 4892 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,hospital,C2,30,M3_codegen_pm4py,2,hospital_C2_30,,0,0,0,,
+archive_superseded,hospital,C3,30,M2_codegen,1,hospital_C3_30,0,1,0,1,,"The median repaired row moved 43199 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,hospital,C3,30,M2_codegen,1,hospital_C3_30,,0,0,0,,
+archive_superseded,hospital,C3,30,M2_codegen,2,hospital_C3_30,0,1,0,1,,
+archive_superseded,hospital,C3,30,M2_codegen,2,hospital_C3_30,,0,0,0,,
+archive_superseded,hospital,C3,30,M3_codegen_pm4py,1,hospital_C3_30,0,1,0,1,,
+archive_superseded,hospital,C3,30,M3_codegen_pm4py,1,hospital_C3_30,,0,0,0,,
+archive_superseded,hospital,C3,30,M3_codegen_pm4py,2,hospital_C3_30,0,1,0,1,,"The median repaired row moved 31668 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,hospital,C3,30,M3_codegen_pm4py,2,hospital_C3_30,,0,0,0,,
+archive_superseded,pub,C1,30,M2_codegen,1,pub_C1_30,0,1,0,1,,296 negative durations remain after repair.
+archive_superseded,pub,C1,30,M2_codegen,1,pub_C1_30,,0,0,0,,
+archive_superseded,pub,C1,30,M2_codegen,2,pub_C1_30,0,1,0,1,,296 negative durations remain after repair.
+archive_superseded,pub,C1,30,M2_codegen,2,pub_C1_30,,0,0,0,,
+archive_superseded,pub,C1,30,M3_codegen_pm4py,1,pub_C1_30,0,1,0,1,,296 negative durations remain after repair.
+archive_superseded,pub,C1,30,M3_codegen_pm4py,1,pub_C1_30,,0,0,0,,
+archive_superseded,pub,C1,30,M3_codegen_pm4py,2,pub_C1_30,0,1,0,1,,296 negative durations remain after repair.
+archive_superseded,pub,C1,30,M3_codegen_pm4py,2,pub_C1_30,,0,0,0,,
+archive_superseded,pub,C1,30,M3_codegen_pm4py,3,pub_C1_30,0,1,0,1,,64% of repaired C1 blocks have a span outside the p10-p90 range of block_span_profile. The spacing statistic is wrong for this log. | 296 negative durations remain after repair.
+archive_superseded,pub,C1,30,M3_codegen_pm4py,3,pub_C1_30,,0,0,0,,
+archive_superseded,pub,C2,30,M2_codegen,1,pub_C2_30,0,1,0,1,,"The median repaired row moved 5133 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,pub,C2,30,M2_codegen,1,pub_C2_30,,0,0,0,,
+archive_superseded,pub,C2,30,M2_codegen,2,pub_C2_30,0,1,0,1,,"The median repaired row moved 4767 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,pub,C2,30,M2_codegen,2,pub_C2_30,,0,0,0,,
+archive_superseded,pub,C2,30,M2_codegen,3,pub_C2_30,0,1,0,1,,"The median repaired row moved 5052 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,pub,C2,30,M2_codegen,3,pub_C2_30,,0,0,0,,
+archive_superseded,pub,C2,30,M2_codegen,3,pub_C2_30,,0,0,0,,
+archive_superseded,pub,C2,30,M3_codegen_pm4py,1,pub_C2_30,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""_llm_percat\out\runs\per_category\pub_C2_30\M3_codegen_pm4py_t1\cand_0\generated_repair.py"", line 596, in <module>     main()   File ""_llm_percat\out\runs\per_category\pub_C2_30\M3_code","The median repaired row moved 5005 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,pub,C2,30,M3_codegen_pm4py,1,pub_C2_30,,0,0,0,,
+archive_superseded,pub,C2,30,M3_codegen_pm4py,2,pub_C2_30,0,1,0,1,,"The median repaired row moved 3894 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,pub,C2,30,M3_codegen_pm4py,2,pub_C2_30,,0,0,0,,
+archive_superseded,pub,C3,30,M2_codegen,2,pub_C3_30,0,1,0,1,,"The median repaired row moved 73077 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,pub,C3,30,M2_codegen,2,pub_C3_30,,0,0,0,,
+archive_superseded,pub,C3,30,M2_codegen,3,pub_C3_30,0,2,1,1,"ValueError: NO-OP: 52% of the 300 corrupted rows came back with exactly the timestamp they went in with. Every row whose error_category is not CLEAN must be assigned a new value. If a validation branch in your code rejects a candidate repair, it must emit its next-best estimate; it must NOT fall bac","The median repaired row moved 72686 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,pub,C3,30,M2_codegen,3,pub_C3_30,,0,0,0,,
+archive_superseded,pub,C3,30,M3_codegen_pm4py,1,pub_C3_30,0,1,0,1,,"The median repaired row moved 69477 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,pub,C3,30,M3_codegen_pm4py,1,pub_C3_30,,0,0,0,,
+archive_superseded,pub,C3,30,M3_codegen_pm4py,1,pub_C3_30,,0,0,0,,
+archive_superseded,pub,C3,30,M3_codegen_pm4py,2,pub_C3_30,0,2,1,1,"ValueError: NO-OP: 52% of the 300 corrupted rows came back with exactly the timestamp they went in with. Every row whose error_category is not CLEAN must be assigned a new value. If a validation branch in your code rejects a candidate repair, it must emit its next-best estimate; it must NOT fall bac","The median repaired row moved 70871 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,pub,C3,30,M3_codegen_pm4py,2,pub_C3_30,,0,0,0,,
+archive_superseded,pub,C3,30,M3_codegen_pm4py,2,pub_C3_30,,0,0,0,,
+archive_superseded,pub,C3,30,M3_codegen_pm4py,3,pub_C3_30,0,1,0,1,,"The median repaired row moved 69475 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,pub,C3,30,M3_codegen_pm4py,3,pub_C3_30,,0,0,0,,
+archive_superseded,pub,C3,30,M3_codegen_pm4py,3,pub_C3_30,,0,0,0,,
+archive_superseded,credit,C1,30,M3_codegen_pm4py,3,credit_C1_30,0,2,1,1,"ValueError: COLLAPSED BLOCKS REMAIN: 300 of 300 C1 blocks still contain duplicate timestamps after your repair (e.g. case 62). A C1 block arrives with k identical timestamps and must leave with k distinct ones, ordered by your inferred sequence.",256 negative durations remain after repair.
+archive_superseded,credit,C1,30,M3_codegen_pm4py,3,credit_C1_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,1,credit_C2_30,0,2,1,1,"ValueError: NO-OP: 100% of the 300 corrupted rows came back with exactly the timestamp they went in with. Every row whose error_category is not CLEAN must be assigned a new value. If a validation branch in your code rejects a candidate repair, it must emit its next-best estimate; it must NOT fall ba","The median repaired row moved 4141 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M2_codegen,1,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,2,credit_C2_30,0,1,0,1,,"The median repaired row moved 4566 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M2_codegen,2,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,2,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,3,credit_C2_30,0,1,0,1,,"The median repaired row moved 3663 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M2_codegen,3,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M2_codegen,3,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M3_codegen_pm4py,1,credit_C2_30,0,1,0,1,,"The median repaired row moved 3653 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M3_codegen_pm4py,1,credit_C2_30,,0,0,0,,
+archive_superseded,credit,C2,30,M3_codegen_pm4py,3,credit_C2_30,0,1,0,1,,"The median repaired row moved 4141 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+archive_superseded,credit,C2,30,M3_codegen_pm4py,3,credit_C2_30,,0,0,0,,
+out_other,credit,C1,30,M2_codegen,2,credit_C1_30,0,1,0,1,,275 negative durations remain after repair.
+out_other,credit,C1,30,M2_codegen,2,credit_C1_30,,0,0,0,,
+out_other,credit,C1,30,M2_codegen,3,credit_C1_30,0,1,0,1,,275 negative durations remain after repair.
+out_other,credit,C1,30,M2_codegen,3,credit_C1_30,,0,0,0,,
+out_other,credit,C1,30,M2_codegen,2,credit_C1_30,0,1,0,1,,26% of repaired C1 blocks have a span outside the p10-p90 range of block_span_profile. The spacing statistic is wrong for this log. | 291 negative durations remain after repair.
+out_other,credit,C1,30,M2_codegen,2,credit_C1_30,,0,0,0,,
+out_other,credit,C1,30,M2_codegen,3,credit_C1_30,0,1,0,1,,285 negative durations remain after repair.
+out_other,credit,C1,30,M2_codegen,3,credit_C1_30,,0,0,0,,
+out_other,credit,C1,30,M3_codegen_pm4py,2,credit_C1_30,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\base.py"", line 3805, in get_loc     return self._engine.get_loc(cast",100% of repaired C1 blocks have a span outside the p10-p90 range of block_span_profile. The spacing statistic is wrong for this log. | 283 negative durations remain after repair.
+out_other,credit,C1,30,M3_codegen_pm4py,2,credit_C1_30,,0,0,0,,
+out_other,credit,C1,30,M3_codegen_pm4py,3,credit_C1_30,0,1,0,1,,283 negative durations remain after repair.
+out_other,credit,C1,30,M3_codegen_pm4py,3,credit_C1_30,,0,0,0,,
+out_other,credit,C1,30,M3_codegen_pm4py,3,credit_C1_30,,0,0,0,,
+out_other,credit,C2,30,M2_codegen,1,credit_C2_30,0,1,0,1,,"The median repaired row moved 3815 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C2,30,M2_codegen,1,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M2_codegen,1,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M2_codegen,2,credit_C2_30,0,1,0,1,,"The median repaired row moved 3663 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C2,30,M2_codegen,2,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M2_codegen,2,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M2_codegen,3,credit_C2_30,0,1,0,1,,"The median repaired row moved 3663 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C2,30,M2_codegen,3,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M2_codegen,3,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M3_codegen_pm4py,1,credit_C2_30,0,1,0,1,,"The median repaired row moved 3824 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C2,30,M3_codegen_pm4py,1,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M3_codegen_pm4py,2,credit_C2_30,0,1,0,1,,"The median repaired row moved 3824 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C2,30,M3_codegen_pm4py,2,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M3_codegen_pm4py,3,credit_C2_30,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""_llm_percat\out\runs\credit_C2_30\M3_codegen_pm4py_t3\cand_0\generated_repair.py"", line 178, in <module>     main()   File ""_llm_percat\out\runs\credit_C2_30\M3_codegen_pm4py_t3\cand_0\","The median repaired row moved 3824 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C2,30,M3_codegen_pm4py,3,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M3_codegen_pm4py,3,credit_C2_30,,0,0,0,,
+out_other,credit,C3,30,M2_codegen,1,credit_C3_30,0,1,0,1,,"The median repaired row moved 38198 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C3,30,M2_codegen,1,credit_C3_30,,0,0,0,,
+out_other,credit,C3,30,M2_codegen,1,credit_C3_30,,0,0,0,,
+out_other,credit,C3,30,M2_codegen,3,credit_C3_30,0,1,0,1,,"14 negative durations remain after repair. | The median repaired row moved 38377 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C3,30,M2_codegen,3,credit_C3_30,,0,0,0,,
+out_other,credit,C3,30,M3_codegen_pm4py,2,credit_C3_30,0,1,0,1,,"The median repaired row moved 38372 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C3,30,M3_codegen_pm4py,2,credit_C3_30,,0,0,0,,
+out_other,credit,C3,30,M3_codegen_pm4py,2,credit_C3_30,,0,0,0,,
+out_other,credit,C3,30,M3_codegen_pm4py,3,credit_C3_30,0,1,0,1,,"The median repaired row moved 38370 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C3,30,M3_codegen_pm4py,3,credit_C3_30,,0,0,0,,
+out_other,credit,C3,30,M3_codegen_pm4py,3,credit_C3_30,,0,0,0,,
+full5_per_category,bpic12,C1,30,M2_codegen,1,bpic12_C1_30,0,1,0,1,,268 negative durations remain after repair.
+full5_per_category,bpic12,C1,30,M2_codegen,1,bpic12_C1_30,,0,0,0,,
+full5_per_category,bpic12,C1,30,M2_codegen,2,bpic12_C1_30,0,1,0,1,,268 negative durations remain after repair.
+full5_per_category,bpic12,C1,30,M2_codegen,2,bpic12_C1_30,,0,0,0,,
+full5_per_category,bpic12,C1,30,M2_codegen,3,bpic12_C1_30,0,2,1,1,"ValueError: ORDER NOT INFERRED: in 299 of 300 C1 blocks (100%) your timestamps increase straight down the rows, so you separated the blocks without ordering them. The row order inside a corrupted block is RANDOM -- the events were shuffled when the block was recorded -- so increasing timestamps in r",268 negative durations remain after repair.
+full5_per_category,bpic12,C1,30,M2_codegen,3,bpic12_C1_30,,0,0,0,,
+full5_per_category,bpic12,C1,30,M2_codegen,4,bpic12_C1_30,0,1,0,1,,266 negative durations remain after repair.
+full5_per_category,bpic12,C1,30,M2_codegen,4,bpic12_C1_30,,0,0,0,,
+full5_per_category,bpic12,C1,30,M2_codegen,5,bpic12_C1_30,0,1,0,1,,267 negative durations remain after repair.
+full5_per_category,bpic12,C1,30,M2_codegen,5,bpic12_C1_30,,0,0,0,,
+full5_per_category,bpic12,C1,30,M3_codegen_pm4py,1,bpic12_C1_30,0,1,0,1,,268 negative durations remain after repair.
+full5_per_category,bpic12,C1,30,M3_codegen_pm4py,1,bpic12_C1_30,,0,0,0,,
+full5_per_category,bpic12,C1,30,M3_codegen_pm4py,2,bpic12_C1_30,0,1,0,1,,265 negative durations remain after repair.
+full5_per_category,bpic12,C1,30,M3_codegen_pm4py,2,bpic12_C1_30,,0,0,0,,
+full5_per_category,bpic12,C1,30,M3_codegen_pm4py,2,bpic12_C1_30,,0,0,0,,
+full5_per_category,bpic12,C1,30,M3_codegen_pm4py,3,bpic12_C1_30,0,1,0,1,,267 negative durations remain after repair.
+full5_per_category,bpic12,C1,30,M3_codegen_pm4py,3,bpic12_C1_30,,0,0,0,,
+full5_per_category,bpic12,C1,30,M3_codegen_pm4py,4,bpic12_C1_30,0,1,0,1,,268 negative durations remain after repair.
+full5_per_category,bpic12,C1,30,M3_codegen_pm4py,4,bpic12_C1_30,,0,0,0,,
+full5_per_category,bpic12,C2,30,M2_codegen,1,bpic12_C2_30,0,1,0,1,,"The median repaired row moved 6880 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C2,30,M2_codegen,1,bpic12_C2_30,,0,0,0,,
+full5_per_category,bpic12,C2,30,M2_codegen,2,bpic12_C2_30,0,1,0,1,,"The median repaired row moved 4456 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C2,30,M2_codegen,2,bpic12_C2_30,,0,0,0,,
+full5_per_category,bpic12,C2,30,M3_codegen_pm4py,1,bpic12_C2_30,0,1,0,1,,"The median repaired row moved 4309 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C2,30,M3_codegen_pm4py,1,bpic12_C2_30,,0,0,0,,
+full5_per_category,bpic12,C2,30,M3_codegen_pm4py,1,bpic12_C2_30,,0,0,0,,
+full5_per_category,bpic12,C2,30,M3_codegen_pm4py,2,bpic12_C2_30,0,1,0,1,,"3 negative durations remain after repair. | The median repaired row moved 6131 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C2,30,M3_codegen_pm4py,2,bpic12_C2_30,,0,0,0,,
+full5_per_category,bpic12,C2,30,M3_codegen_pm4py,3,bpic12_C2_30,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""_llm_percat\out\runs\per_category\bpic12_C2_30\M3_codegen_pm4py_t3\cand_0\generated_repair.py"", line 409, in <module>     main()   File ""_llm_percat\out\runs\per_category\bpic12_C2_30\M","The median repaired row moved 5354 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C2,30,M3_codegen_pm4py,3,bpic12_C2_30,,0,0,0,,
+full5_per_category,bpic12,C2,30,M3_codegen_pm4py,3,bpic12_C2_30,,0,0,0,,
+full5_per_category,bpic12,C2,30,M3_codegen_pm4py,4,bpic12_C2_30,0,1,0,1,,"The median repaired row moved 7428 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C2,30,M3_codegen_pm4py,4,bpic12_C2_30,,0,0,0,,
+full5_per_category,bpic12,C2,30,M3_codegen_pm4py,5,bpic12_C2_30,0,1,0,1,,"The median repaired row moved 3781 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C2,30,M3_codegen_pm4py,5,bpic12_C2_30,,0,0,0,,
+full5_per_category,bpic12,C2,30,M3_codegen_pm4py,5,bpic12_C2_30,,0,0,0,,
+full5_per_category,bpic12,C3,30,M2_codegen,1,bpic12_C3_30,0,1,0,1,,"The median repaired row moved 64928 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C3,30,M2_codegen,1,bpic12_C3_30,,0,0,0,,
+full5_per_category,bpic12,C3,30,M2_codegen,1,bpic12_C3_30,,0,0,0,,
+full5_per_category,bpic12,C3,30,M2_codegen,2,bpic12_C3_30,0,1,0,1,,"The median repaired row moved 64742 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C3,30,M2_codegen,2,bpic12_C3_30,,0,0,0,,
+full5_per_category,bpic12,C3,30,M2_codegen,2,bpic12_C3_30,,0,0,0,,
+full5_per_category,bpic12,C3,30,M2_codegen,4,bpic12_C3_30,0,1,0,1,,"The median repaired row moved 64742 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C3,30,M2_codegen,4,bpic12_C3_30,,0,0,0,,
+full5_per_category,bpic12,C3,30,M2_codegen,4,bpic12_C3_30,,0,0,0,,
+full5_per_category,bpic12,C3,30,M3_codegen_pm4py,1,bpic12_C3_30,0,1,0,1,,"The median repaired row moved 64699 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C3,30,M3_codegen_pm4py,1,bpic12_C3_30,,0,0,0,,
+full5_per_category,bpic12,C3,30,M3_codegen_pm4py,1,bpic12_C3_30,,0,0,0,,
+full5_per_category,bpic12,C3,30,M3_codegen_pm4py,2,bpic12_C3_30,0,1,0,1,,"The median repaired row moved 63628 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C3,30,M3_codegen_pm4py,2,bpic12_C3_30,,0,0,0,,
+full5_per_category,bpic12,C3,30,M3_codegen_pm4py,2,bpic12_C3_30,,0,0,0,,
+full5_per_category,bpic12,C3,30,M3_codegen_pm4py,3,bpic12_C3_30,0,1,0,1,,"The median repaired row moved 63629 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C3,30,M3_codegen_pm4py,3,bpic12_C3_30,,0,0,0,,
+full5_per_category,bpic12,C3,30,M3_codegen_pm4py,4,bpic12_C3_30,0,1,0,1,,"The median repaired row moved 63812 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C3,30,M3_codegen_pm4py,4,bpic12_C3_30,,0,0,0,,
+full5_per_category,bpic12,C3,30,M3_codegen_pm4py,4,bpic12_C3_30,,0,0,0,,
+full5_per_category,bpic12,C3,30,M3_codegen_pm4py,5,bpic12_C3_30,0,1,0,1,,"The median repaired row moved 63811 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic12,C3,30,M3_codegen_pm4py,5,bpic12_C3_30,,0,0,0,,
+full5_per_category,bpic15,C1,30,M2_codegen,2,bpic15_C1_30,0,1,0,1,,98 negative durations remain after repair.
+full5_per_category,bpic15,C1,30,M2_codegen,2,bpic15_C1_30,,0,0,0,,
+full5_per_category,bpic15,C1,30,M2_codegen,3,bpic15_C1_30,0,1,0,1,,93 negative durations remain after repair.
+full5_per_category,bpic15,C1,30,M2_codegen,3,bpic15_C1_30,,0,0,0,,
+full5_per_category,bpic15,C1,30,M2_codegen,4,bpic15_C1_30,0,1,0,1,,63 negative durations remain after repair.
+full5_per_category,bpic15,C1,30,M2_codegen,4,bpic15_C1_30,,0,0,0,,
+full5_per_category,bpic15,C1,30,M2_codegen,5,bpic15_C1_30,0,1,0,1,,34 negative durations remain after repair. | ORDERING NOT INFERRED FROM PROCESS BEHAVIOUR: only 42% of C1 blocks ended up in the order the log's own transition statistics most support (median shortfall 5.53 in summed log-probability). The block is laid out forward from whichever row keeps the observ
+full5_per_category,bpic15,C1,30,M2_codegen,5,bpic15_C1_30,,0,0,0,,
+full5_per_category,bpic15,C1,30,M3_codegen_pm4py,1,bpic15_C1_30,0,1,0,1,,141 negative durations remain after repair.
+full5_per_category,bpic15,C1,30,M3_codegen_pm4py,1,bpic15_C1_30,,0,0,0,,
+full5_per_category,bpic15,C1,30,M3_codegen_pm4py,2,bpic15_C1_30,0,2,1,1,"ValueError: COLLAPSED BLOCKS REMAIN: 154 of 154 C1 blocks still contain duplicate timestamps after your repair (e.g. case 2817543). A C1 block arrives with k identical timestamps and must leave with k distinct ones, ordered by your inferred sequence.",93 negative durations remain after repair.
+full5_per_category,bpic15,C1,30,M3_codegen_pm4py,2,bpic15_C1_30,,0,0,0,,
+full5_per_category,bpic15,C1,30,M3_codegen_pm4py,2,bpic15_C1_30,,0,0,0,,
+full5_per_category,bpic15,C1,30,M3_codegen_pm4py,4,bpic15_C1_30,0,1,0,1,,75 negative durations remain after repair. | ORDERING NOT INFERRED FROM PROCESS BEHAVIOUR: only 44% of C1 blocks ended up in the order the log's own transition statistics most support (median shortfall 4.84 in summed log-probability). The block is laid out forward from whichever row keeps the observ
+full5_per_category,bpic15,C1,30,M3_codegen_pm4py,4,bpic15_C1_30,,0,0,0,,
+full5_per_category,bpic15,C1,30,M3_codegen_pm4py,4,bpic15_C1_30,,0,0,0,,
+full5_per_category,bpic15,C1,30,M3_codegen_pm4py,5,bpic15_C1_30,0,1,0,1,,93 negative durations remain after repair.
+full5_per_category,bpic15,C1,30,M3_codegen_pm4py,5,bpic15_C1_30,,0,0,0,,
+full5_per_category,bpic15,C2,30,M3_codegen_pm4py,1,bpic15_C2_30,0,1,0,1,,
+full5_per_category,bpic15,C2,30,M3_codegen_pm4py,1,bpic15_C2_30,,0,0,0,,
+full5_per_category,bpic15,C2,30,M3_codegen_pm4py,2,bpic15_C2_30,0,1,0,1,,
+full5_per_category,bpic15,C2,30,M3_codegen_pm4py,2,bpic15_C2_30,,0,0,0,,
+full5_per_category,bpic15,C2,30,M3_codegen_pm4py,3,bpic15_C2_30,0,1,0,1,,"The median repaired row moved 4303 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic15,C2,30,M3_codegen_pm4py,3,bpic15_C2_30,,0,0,0,,
+full5_per_category,bpic15,C2,30,M3_codegen_pm4py,4,bpic15_C2_30,0,1,0,1,,"The median repaired row moved 4936 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic15,C2,30,M3_codegen_pm4py,4,bpic15_C2_30,,0,0,0,,
+full5_per_category,bpic15,C2,30,M3_codegen_pm4py,5,bpic15_C2_30,0,1,0,1,,
+full5_per_category,bpic15,C2,30,M3_codegen_pm4py,5,bpic15_C2_30,,0,0,0,,
+full5_per_category,bpic15,C3,30,M2_codegen,4,bpic15_C3_30,0,1,0,1,,"The median repaired row moved 69898 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic15,C3,30,M2_codegen,4,bpic15_C3_30,,0,0,0,,
+full5_per_category,bpic15,C3,30,M3_codegen_pm4py,1,bpic15_C3_30,0,1,0,1,,"The median repaired row moved 68613 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic15,C3,30,M3_codegen_pm4py,1,bpic15_C3_30,,0,0,0,,
+full5_per_category,bpic15,C3,30,M3_codegen_pm4py,2,bpic15_C3_30,0,1,0,1,,"The median repaired row moved 68532 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic15,C3,30,M3_codegen_pm4py,2,bpic15_C3_30,,0,0,0,,
+full5_per_category,bpic15,C3,30,M3_codegen_pm4py,3,bpic15_C3_30,0,1,0,1,,"The median repaired row moved 68206 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic15,C3,30,M3_codegen_pm4py,3,bpic15_C3_30,,0,0,0,,
+full5_per_category,bpic15,C3,30,M3_codegen_pm4py,5,bpic15_C3_30,0,1,0,1,,"The median repaired row moved 68206 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,bpic15,C3,30,M3_codegen_pm4py,5,bpic15_C3_30,,0,0,0,,
+full5_per_category,bpic15,C3,30,M3_codegen_pm4py,5,bpic15_C3_30,,0,0,0,,
+full5_per_category,credit,C1,30,M2_codegen,1,credit_C1_30,0,1,0,1,,275 negative durations remain after repair.
+full5_per_category,credit,C1,30,M2_codegen,1,credit_C1_30,,0,0,0,,
+full5_per_category,credit,C1,30,M2_codegen,2,credit_C1_30,0,1,0,1,,275 negative durations remain after repair.
+full5_per_category,credit,C1,30,M2_codegen,2,credit_C1_30,,0,0,0,,
+full5_per_category,credit,C1,30,M2_codegen,2,credit_C1_30,,0,0,0,,
+full5_per_category,credit,C1,30,M2_codegen,3,credit_C1_30,0,1,0,1,,275 negative durations remain after repair.
+full5_per_category,credit,C1,30,M2_codegen,3,credit_C1_30,,0,0,0,,
+full5_per_category,credit,C1,30,M2_codegen,4,credit_C1_30,0,2,1,1,"ValueError: COLLAPSED BLOCKS REMAIN: 298 of 300 C1 blocks still contain duplicate timestamps after your repair (e.g. case 142). A C1 block arrives with k identical timestamps and must leave with k distinct ones, ordered by your inferred sequence.",275 negative durations remain after repair.
+full5_per_category,credit,C1,30,M2_codegen,4,credit_C1_30,,0,0,0,,
+full5_per_category,credit,C1,30,M2_codegen,5,credit_C1_30,0,1,0,1,,275 negative durations remain after repair.
+full5_per_category,credit,C1,30,M2_codegen,5,credit_C1_30,,0,0,0,,
+full5_per_category,credit,C1,30,M3_codegen_pm4py,1,credit_C1_30,0,2,1,1,"ValueError: COLLAPSED BLOCKS REMAIN: 300 of 300 C1 blocks still contain duplicate timestamps after your repair (e.g. case 62). A C1 block arrives with k identical timestamps and must leave with k distinct ones, ordered by your inferred sequence.",275 negative durations remain after repair.
+full5_per_category,credit,C1,30,M3_codegen_pm4py,1,credit_C1_30,,0,0,0,,
+full5_per_category,credit,C1,30,M3_codegen_pm4py,2,credit_C1_30,0,2,1,1,"ValueError: ORDER NOT INFERRED: in 300 of 300 C1 blocks (100%) your timestamps increase straight down the rows, so you separated the blocks without ordering them. The row order inside a corrupted block is RANDOM -- the events were shuffled when the block was recorded -- so increasing timestamps in r",275 negative durations remain after repair.
+full5_per_category,credit,C1,30,M3_codegen_pm4py,2,credit_C1_30,,0,0,0,,
+full5_per_category,credit,C1,30,M3_codegen_pm4py,2,credit_C1_30,,0,0,0,,
+full5_per_category,credit,C1,30,M3_codegen_pm4py,3,credit_C1_30,0,1,0,1,,291 negative durations remain after repair.
+full5_per_category,credit,C1,30,M3_codegen_pm4py,3,credit_C1_30,,0,0,0,,
+full5_per_category,credit,C1,30,M3_codegen_pm4py,4,credit_C1_30,0,1,0,1,,295 negative durations remain after repair.
+full5_per_category,credit,C1,30,M3_codegen_pm4py,4,credit_C1_30,,0,0,0,,
+full5_per_category,credit,C1,30,M3_codegen_pm4py,5,credit_C1_30,0,1,0,1,,275 negative durations remain after repair.
+full5_per_category,credit,C1,30,M3_codegen_pm4py,5,credit_C1_30,,0,0,0,,
+full5_per_category,credit,C2,30,M2_codegen,1,credit_C2_30,0,1,0,1,,"The median repaired row moved 3824 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C2,30,M2_codegen,1,credit_C2_30,,0,0,0,,
+full5_per_category,credit,C2,30,M2_codegen,1,credit_C2_30,,0,0,0,,
+full5_per_category,credit,C2,30,M2_codegen,2,credit_C2_30,0,1,0,1,,"The median repaired row moved 3824 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C2,30,M2_codegen,2,credit_C2_30,,0,0,0,,
+full5_per_category,credit,C2,30,M2_codegen,3,credit_C2_30,0,1,0,1,,"The median repaired row moved 3653 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C2,30,M2_codegen,3,credit_C2_30,,0,0,0,,
+full5_per_category,credit,C2,30,M2_codegen,3,credit_C2_30,,0,0,0,,
+full5_per_category,credit,C2,30,M3_codegen_pm4py,1,credit_C2_30,0,1,0,1,,"The median repaired row moved 4170 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C2,30,M3_codegen_pm4py,1,credit_C2_30,,0,0,0,,
+full5_per_category,credit,C2,30,M3_codegen_pm4py,2,credit_C2_30,0,1,0,1,,"The median repaired row moved 3995 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C2,30,M3_codegen_pm4py,2,credit_C2_30,,0,0,0,,
+full5_per_category,credit,C2,30,M3_codegen_pm4py,2,credit_C2_30,,0,0,0,,
+full5_per_category,credit,C2,30,M3_codegen_pm4py,3,credit_C2_30,0,1,0,1,,"The median repaired row moved 3824 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C2,30,M3_codegen_pm4py,3,credit_C2_30,,0,0,0,,
+full5_per_category,credit,C2,30,M3_codegen_pm4py,4,credit_C2_30,0,1,0,1,,"The median repaired row moved 3824 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C2,30,M3_codegen_pm4py,4,credit_C2_30,,0,0,0,,
+full5_per_category,credit,C2,30,M3_codegen_pm4py,5,credit_C2_30,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""_llm_percat\out\runs\per_category\credit_C2_30\M3_codegen_pm4py_t5\cand_0\generated_repair.py"", line 588, in <module>     main()   File ""_llm_percat\out\runs\per_category\credit_C2_30\M","The median repaired row moved 3845 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C2,30,M3_codegen_pm4py,5,credit_C2_30,,0,0,0,,
+full5_per_category,credit,C3,30,M2_codegen,1,credit_C3_30,0,1,0,1,,"The median repaired row moved 38512 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C3,30,M2_codegen,1,credit_C3_30,,0,0,0,,
+full5_per_category,credit,C3,30,M2_codegen,2,credit_C3_30,0,1,0,1,,"The median repaired row moved 38372 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C3,30,M2_codegen,2,credit_C3_30,,0,0,0,,
+full5_per_category,credit,C3,30,M2_codegen,3,credit_C3_30,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""_llm_percat\out\runs\per_category\credit_C3_30\M2_codegen_t3\cand_0\generated_repair.py"", line 590, in <module>     main()   File ""_llm_percat\out\runs\per_category\credit_C3_30\M2_code","The median repaired row moved 38512 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C3,30,M2_codegen,3,credit_C3_30,,0,0,0,,
+full5_per_category,credit,C3,30,M2_codegen,4,credit_C3_30,0,1,0,1,,"The median repaired row moved 38372 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C3,30,M2_codegen,4,credit_C3_30,,0,0,0,,
+full5_per_category,credit,C3,30,M2_codegen,4,credit_C3_30,,0,0,0,,
+full5_per_category,credit,C3,30,M3_codegen_pm4py,1,credit_C3_30,0,1,0,1,,"The median repaired row moved 38512 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C3,30,M3_codegen_pm4py,1,credit_C3_30,,0,0,0,,
+full5_per_category,credit,C3,30,M3_codegen_pm4py,1,credit_C3_30,,0,0,0,,
+full5_per_category,credit,C3,30,M3_codegen_pm4py,2,credit_C3_30,0,1,0,1,,"The median repaired row moved 38512 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C3,30,M3_codegen_pm4py,2,credit_C3_30,,0,0,0,,
+full5_per_category,credit,C3,30,M3_codegen_pm4py,3,credit_C3_30,0,1,0,1,,"The median repaired row moved 38512 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C3,30,M3_codegen_pm4py,3,credit_C3_30,,0,0,0,,
+full5_per_category,credit,C3,30,M3_codegen_pm4py,4,credit_C3_30,0,1,0,1,,"The median repaired row moved 38372 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C3,30,M3_codegen_pm4py,4,credit_C3_30,,0,0,0,,
+full5_per_category,credit,C3,30,M3_codegen_pm4py,4,credit_C3_30,,0,0,0,,
+full5_per_category,credit,C3,30,M3_codegen_pm4py,5,credit_C3_30,0,2,1,1,FileNotFoundError: [Errno 2] No such file or directory: '_llm_percat\\out\\runs\\per_category\\credit_C3_30\\M3_codegen_pm4py_t5\\cand_0\\candidate.csv',"The median repaired row moved 38785 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,credit,C3,30,M3_codegen_pm4py,5,credit_C3_30,,0,0,0,,
+full5_per_category,hospital,C1,30,M2_codegen,1,hospital_C1_30,0,2,1,1,"ValueError: COLLAPSED BLOCKS REMAIN: 47 of 300 C1 blocks still contain duplicate timestamps after your repair (e.g. case AEL). A C1 block arrives with k identical timestamps and must leave with k distinct ones, ordered by your inferred sequence.","291 negative durations remain after repair. | The median repaired row moved 176021 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C1,30,M2_codegen,1,hospital_C1_30,,0,0,0,,
+full5_per_category,hospital,C1,30,M2_codegen,2,hospital_C1_30,0,2,1,1,"ValueError: COLLAPSED BLOCKS REMAIN: 47 of 300 C1 blocks still contain duplicate timestamps after your repair (e.g. case AEL). A C1 block arrives with k identical timestamps and must leave with k distinct ones, ordered by your inferred sequence.","295 negative durations remain after repair. | The median repaired row moved 176021 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C1,30,M2_codegen,2,hospital_C1_30,,0,0,0,,
+full5_per_category,hospital,C1,30,M2_codegen,3,hospital_C1_30,0,1,0,1,,"291 negative durations remain after repair. | The median repaired row moved 176021 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C1,30,M2_codegen,3,hospital_C1_30,,0,0,0,,
+full5_per_category,hospital,C1,30,M2_codegen,5,hospital_C1_30,0,1,0,1,,"291 negative durations remain after repair. | The median repaired row moved 176021 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C1,30,M2_codegen,5,hospital_C1_30,,0,0,0,,
+full5_per_category,hospital,C1,30,M2_codegen,5,hospital_C1_30,,0,0,0,,
+full5_per_category,hospital,C1,30,M3_codegen_pm4py,1,hospital_C1_30,0,1,0,1,,100% of repaired C1 blocks have a span outside the p10-p90 range of block_span_profile. The spacing statistic is wrong for this log. | 169 negative durations remain after repair.
+full5_per_category,hospital,C1,30,M3_codegen_pm4py,1,hospital_C1_30,,0,0,0,,
+full5_per_category,hospital,C1,30,M3_codegen_pm4py,2,hospital_C1_30,0,1,0,1,,78% of repaired C1 blocks have a span outside the p10-p90 range of block_span_profile. The spacing statistic is wrong for this log. | 200 negative durations remain after repair.
+full5_per_category,hospital,C1,30,M3_codegen_pm4py,2,hospital_C1_30,,0,0,0,,
+full5_per_category,hospital,C1,30,M3_codegen_pm4py,3,hospital_C1_30,0,1,0,1,,"293 negative durations remain after repair. | The median repaired row moved 176021 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C1,30,M3_codegen_pm4py,3,hospital_C1_30,,0,0,0,,
+full5_per_category,hospital,C1,30,M3_codegen_pm4py,4,hospital_C1_30,0,1,0,1,,"291 negative durations remain after repair. | The median repaired row moved 176021 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C1,30,M3_codegen_pm4py,4,hospital_C1_30,,0,0,0,,
+full5_per_category,hospital,C1,30,M3_codegen_pm4py,4,hospital_C1_30,,0,0,0,,
+full5_per_category,hospital,C1,30,M3_codegen_pm4py,5,hospital_C1_30,0,1,0,1,,"293 negative durations remain after repair. | The median repaired row moved 28515 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C1,30,M3_codegen_pm4py,5,hospital_C1_30,,0,0,0,,
+full5_per_category,hospital,C1,30,M3_codegen_pm4py,5,hospital_C1_30,,0,0,0,,
+full5_per_category,hospital,C2,30,M2_codegen,1,hospital_C2_30,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""_llm_percat\out\runs\per_category\hospital_C2_30\M2_codegen_t1\cand_0\generated_repair.py"", line 531, in <module>     main()   File ""_llm_percat\out\runs\per_category\hospital_C2_30\M2_","The median repaired row moved 4774 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C2,30,M2_codegen,1,hospital_C2_30,,0,0,0,,
+full5_per_category,hospital,C2,30,M2_codegen,1,hospital_C2_30,,0,0,0,,
+full5_per_category,hospital,C2,30,M2_codegen,2,hospital_C2_30,0,1,0,1,,"The median repaired row moved 6660 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C2,30,M2_codegen,2,hospital_C2_30,,0,0,0,,
+full5_per_category,hospital,C2,30,M3_codegen_pm4py,1,hospital_C2_30,0,1,0,1,,"The median repaired row moved 4232 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C2,30,M3_codegen_pm4py,1,hospital_C2_30,,0,0,0,,
+full5_per_category,hospital,C2,30,M3_codegen_pm4py,1,hospital_C2_30,,0,0,0,,
+full5_per_category,hospital,C2,30,M3_codegen_pm4py,2,hospital_C2_30,0,1,0,1,,"The median repaired row moved 11312 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C2,30,M3_codegen_pm4py,2,hospital_C2_30,,0,0,0,,
+full5_per_category,hospital,C2,30,M3_codegen_pm4py,2,hospital_C2_30,,0,0,0,,
+full5_per_category,hospital,C2,30,M3_codegen_pm4py,3,hospital_C2_30,0,1,0,1,,"The median repaired row moved 345560 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C2,30,M3_codegen_pm4py,3,hospital_C2_30,,0,0,0,,
+full5_per_category,hospital,C2,30,M3_codegen_pm4py,4,hospital_C2_30,0,1,0,1,,"82 negative durations remain after repair. | The median repaired row moved 4800 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C2,30,M3_codegen_pm4py,4,hospital_C2_30,,0,0,0,,
+full5_per_category,hospital,C2,30,M3_codegen_pm4py,5,hospital_C2_30,0,1,0,1,,"The median repaired row moved 6660 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C2,30,M3_codegen_pm4py,5,hospital_C2_30,,0,0,0,,
+full5_per_category,hospital,C3,30,M2_codegen,1,hospital_C3_30,0,1,0,1,,"The median repaired row moved 43199 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C3,30,M2_codegen,1,hospital_C3_30,,0,0,0,,
+full5_per_category,hospital,C3,30,M2_codegen,2,hospital_C3_30,0,1,0,1,,
+full5_per_category,hospital,C3,30,M2_codegen,2,hospital_C3_30,,0,0,0,,
+full5_per_category,hospital,C3,30,M3_codegen_pm4py,1,hospital_C3_30,0,1,0,1,,
+full5_per_category,hospital,C3,30,M3_codegen_pm4py,1,hospital_C3_30,,0,0,0,,
+full5_per_category,hospital,C3,30,M3_codegen_pm4py,2,hospital_C3_30,0,1,0,1,,"The median repaired row moved 26827 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C3,30,M3_codegen_pm4py,2,hospital_C3_30,,0,0,0,,
+full5_per_category,hospital,C3,30,M3_codegen_pm4py,2,hospital_C3_30,,0,0,0,,
+full5_per_category,hospital,C3,30,M3_codegen_pm4py,3,hospital_C3_30,0,1,0,1,,"The median repaired row moved 86399 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C3,30,M3_codegen_pm4py,3,hospital_C3_30,,0,0,0,,
+full5_per_category,hospital,C3,30,M3_codegen_pm4py,4,hospital_C3_30,0,2,1,1,"ValueError: NO-OP: 51% of the 300 corrupted rows came back with exactly the timestamp they went in with. Every row whose error_category is not CLEAN must be assigned a new value. If a validation branch in your code rejects a candidate repair, it must emit its next-best estimate; it must NOT fall bac","The median repaired row moved 43199 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C3,30,M3_codegen_pm4py,4,hospital_C3_30,,0,0,0,,
+full5_per_category,hospital,C3,30,M3_codegen_pm4py,4,hospital_C3_30,,0,0,0,,
+full5_per_category,hospital,C3,30,M3_codegen_pm4py,5,hospital_C3_30,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""_llm_percat\out\runs\per_category\hospital_C3_30\M3_codegen_pm4py_t5\cand_0\generated_repair.py"", line 507, in <module>     main()   File ""_llm_percat\out\runs\per_category\hospital_C3_","The median repaired row moved 25300 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,hospital,C3,30,M3_codegen_pm4py,5,hospital_C3_30,,0,0,0,,
+full5_per_category,hospital,C3,30,M3_codegen_pm4py,5,hospital_C3_30,,0,0,0,,
+full5_per_category,pub,C1,30,M2_codegen,1,pub_C1_30,0,1,0,1,,296 negative durations remain after repair.
+full5_per_category,pub,C1,30,M2_codegen,1,pub_C1_30,,0,0,0,,
+full5_per_category,pub,C1,30,M2_codegen,2,pub_C1_30,0,1,0,1,,296 negative durations remain after repair.
+full5_per_category,pub,C1,30,M2_codegen,2,pub_C1_30,,0,0,0,,
+full5_per_category,pub,C1,30,M2_codegen,3,pub_C1_30,0,1,0,1,,296 negative durations remain after repair.
+full5_per_category,pub,C1,30,M2_codegen,3,pub_C1_30,,0,0,0,,
+full5_per_category,pub,C1,30,M2_codegen,4,pub_C1_30,0,1,0,1,,296 negative durations remain after repair.
+full5_per_category,pub,C1,30,M2_codegen,4,pub_C1_30,,0,0,0,,
+full5_per_category,pub,C1,30,M2_codegen,5,pub_C1_30,0,1,0,1,,296 negative durations remain after repair.
+full5_per_category,pub,C1,30,M2_codegen,5,pub_C1_30,,0,0,0,,
+full5_per_category,pub,C1,30,M3_codegen_pm4py,1,pub_C1_30,0,1,0,1,,39% of repaired C1 blocks have a span outside the p10-p90 range of block_span_profile. The spacing statistic is wrong for this log. | 294 negative durations remain after repair.
+full5_per_category,pub,C1,30,M3_codegen_pm4py,1,pub_C1_30,,0,0,0,,
+full5_per_category,pub,C1,30,M3_codegen_pm4py,2,pub_C1_30,0,1,0,1,,297 negative durations remain after repair.
+full5_per_category,pub,C1,30,M3_codegen_pm4py,2,pub_C1_30,,0,0,0,,
+full5_per_category,pub,C1,30,M3_codegen_pm4py,3,pub_C1_30,0,1,0,1,,100% of repaired C1 blocks have a span outside the p10-p90 range of block_span_profile. The spacing statistic is wrong for this log. | 295 negative durations remain after repair.
+full5_per_category,pub,C1,30,M3_codegen_pm4py,3,pub_C1_30,,0,0,0,,
+full5_per_category,pub,C1,30,M3_codegen_pm4py,4,pub_C1_30,0,2,1,1,"ValueError: COLLAPSED BLOCKS REMAIN: 300 of 300 C1 blocks still contain duplicate timestamps after your repair (e.g. case 30). A C1 block arrives with k identical timestamps and must leave with k distinct ones, ordered by your inferred sequence.",46% of repaired C1 blocks have a span outside the p10-p90 range of block_span_profile. The spacing statistic is wrong for this log. | 139 negative durations remain after repair. | ORDERING NOT INFERRED FROM PROCESS BEHAVIOUR: only 35% of C1 blocks ended up in the order the log's own transition stati
+full5_per_category,pub,C1,30,M3_codegen_pm4py,4,pub_C1_30,,0,0,0,,
+full5_per_category,pub,C1,30,M3_codegen_pm4py,5,pub_C1_30,0,1,0,1,,296 negative durations remain after repair.
+full5_per_category,pub,C1,30,M3_codegen_pm4py,5,pub_C1_30,,0,0,0,,
+full5_per_category,pub,C1,30,M3_codegen_pm4py,5,pub_C1_30,,0,0,0,,
+full5_per_category,pub,C2,30,M2_codegen,1,pub_C2_30,0,1,0,1,,"The median repaired row moved 5133 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C2,30,M2_codegen,1,pub_C2_30,,0,0,0,,
+full5_per_category,pub,C2,30,M2_codegen,2,pub_C2_30,0,1,0,1,,"The median repaired row moved 4767 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C2,30,M2_codegen,2,pub_C2_30,,0,0,0,,
+full5_per_category,pub,C2,30,M2_codegen,3,pub_C2_30,0,1,0,1,,"The median repaired row moved 5052 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C2,30,M2_codegen,3,pub_C2_30,,0,0,0,,
+full5_per_category,pub,C2,30,M2_codegen,3,pub_C2_30,,0,0,0,,
+full5_per_category,pub,C2,30,M3_codegen_pm4py,1,pub_C2_30,0,1,0,1,,"The median repaired row moved 4459 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C2,30,M3_codegen_pm4py,1,pub_C2_30,,0,0,0,,
+full5_per_category,pub,C2,30,M3_codegen_pm4py,1,pub_C2_30,,0,0,0,,
+full5_per_category,pub,C2,30,M3_codegen_pm4py,2,pub_C2_30,0,1,0,1,,"The median repaired row moved 3888 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C2,30,M3_codegen_pm4py,2,pub_C2_30,,0,0,0,,
+full5_per_category,pub,C2,30,M3_codegen_pm4py,2,pub_C2_30,,0,0,0,,
+full5_per_category,pub,C2,30,M3_codegen_pm4py,3,pub_C2_30,0,1,0,1,,"The median repaired row moved 5349 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C2,30,M3_codegen_pm4py,3,pub_C2_30,,0,0,0,,
+full5_per_category,pub,C2,30,M3_codegen_pm4py,4,pub_C2_30,0,1,0,1,,"The median repaired row moved 5116 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C2,30,M3_codegen_pm4py,4,pub_C2_30,,0,0,0,,
+full5_per_category,pub,C2,30,M3_codegen_pm4py,4,pub_C2_30,,0,0,0,,
+full5_per_category,pub,C2,30,M3_codegen_pm4py,5,pub_C2_30,0,1,0,1,,"The median repaired row moved 4767 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C2,30,M3_codegen_pm4py,5,pub_C2_30,,0,0,0,,
+full5_per_category,pub,C3,30,M2_codegen,2,pub_C3_30,0,1,0,1,,"The median repaired row moved 73077 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C3,30,M2_codegen,2,pub_C3_30,,0,0,0,,
+full5_per_category,pub,C3,30,M2_codegen,3,pub_C3_30,0,1,0,1,,"The median repaired row moved 71298 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C3,30,M2_codegen,3,pub_C3_30,,0,0,0,,
+full5_per_category,pub,C3,30,M3_codegen_pm4py,1,pub_C3_30,0,1,0,1,,"The median repaired row moved 76857 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C3,30,M3_codegen_pm4py,1,pub_C3_30,,0,0,0,,
+full5_per_category,pub,C3,30,M3_codegen_pm4py,2,pub_C3_30,0,1,0,1,,"The median repaired row moved 72334 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C3,30,M3_codegen_pm4py,2,pub_C3_30,,0,0,0,,
+full5_per_category,pub,C3,30,M3_codegen_pm4py,2,pub_C3_30,,0,0,0,,
+full5_per_category,pub,C3,30,M3_codegen_pm4py,3,pub_C3_30,0,1,0,1,,"The median repaired row moved 72527 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C3,30,M3_codegen_pm4py,3,pub_C3_30,,0,0,0,,
+full5_per_category,pub,C3,30,M3_codegen_pm4py,4,pub_C3_30,0,1,0,1,,"The median repaired row moved 70697 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C3,30,M3_codegen_pm4py,4,pub_C3_30,,0,0,0,,
+full5_per_category,pub,C3,30,M3_codegen_pm4py,5,pub_C3_30,0,1,0,1,,"The median repaired row moved 76857 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+full5_per_category,pub,C3,30,M3_codegen_pm4py,5,pub_C3_30,,0,0,0,,
+out_other,credit,C1,30,M3_codegen_pm4py,3,credit_C1_30,0,2,1,1,"ValueError: COLLAPSED BLOCKS REMAIN: 300 of 300 C1 blocks still contain duplicate timestamps after your repair (e.g. case 62). A C1 block arrives with k identical timestamps and must leave with k distinct ones, ordered by your inferred sequence.",256 negative durations remain after repair.
+out_other,credit,C1,30,M3_codegen_pm4py,3,credit_C1_30,,0,0,0,,
+out_other,credit,C2,30,M2_codegen,1,credit_C2_30,0,2,1,1,"ValueError: NO-OP: 100% of the 300 corrupted rows came back with exactly the timestamp they went in with. Every row whose error_category is not CLEAN must be assigned a new value. If a validation branch in your code rejects a candidate repair, it must emit its next-best estimate; it must NOT fall ba","The median repaired row moved 4141 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C2,30,M2_codegen,1,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M2_codegen,2,credit_C2_30,0,1,0,1,,"The median repaired row moved 4566 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C2,30,M2_codegen,2,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M2_codegen,2,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M2_codegen,3,credit_C2_30,0,1,0,1,,"The median repaired row moved 3663 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C2,30,M2_codegen,3,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M2_codegen,3,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M3_codegen_pm4py,1,credit_C2_30,0,1,0,1,,"The median repaired row moved 3653 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C2,30,M3_codegen_pm4py,1,credit_C2_30,,0,0,0,,
+out_other,credit,C2,30,M3_codegen_pm4py,3,credit_C2_30,0,1,0,1,,"The median repaired row moved 4141 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+out_other,credit,C2,30,M3_codegen_pm4py,3,credit_C2_30,,0,0,0,,
+pilot,credit,C1,10,M2_codegen,,credit_C1_10,1,1,0,1,,271 negative durations remain after repair.
+pilot,credit,C1,10,M2_codegen,,credit_C1_10,2,1,0,1,,
+pilot,credit,C1,10,M2_codegen,,credit_C1_10,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""c:\content\ts_repair\credit\runs\credit_C1_10\M2_codegen\cand_0\generated_repair.py"", line 957, in <module>     main()   File ""c:\content\ts_repair\credit\runs\credit_C1_10\M2_codegen\cand_0\generated_repair.py"", line 907, in m",271 negative durations remain after repair.
+pilot,credit,C1,10,M2_codegen,,credit_C1_10,,0,0,0,,
+pilot,credit,C2,10,M3_codegen_pm4py,,credit_C2_10,2,1,0,1,,"287 negative durations remain after repair. | The median repaired row moved 11755098 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,credit,C2,10,M3_codegen_pm4py,,credit_C2_10,1,1,0,1,,"The median repaired row moved 4251 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,credit,C2,10,M3_codegen_pm4py,,credit_C2_10,0,1,0,1,,"The median repaired row moved 4186 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,credit,C2,10,M3_codegen_pm4py,,credit_C2_10,,0,0,0,,
+pilot,credit,C2,10,M3_codegen_pm4py,,credit_C2_10,,0,0,0,,
+pilot,credit,C3,10,M2_codegen,,credit_C3_10,1,0,0,0,,
+pilot,credit,C3,10,M2_codegen,,credit_C3_10,0,1,0,1,,"The median repaired row moved 39276 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,credit,C3,10,M2_codegen,,credit_C3_10,2,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""c:\content\ts_repair\credit\runs\credit_C3_10\M2_codegen\cand_2\generated_repair.py"", line 677, in <module>     main()   File ""c:\content\ts_repair\credit\runs\credit_C3_10\M2_codegen\cand_2\generated_repair.py"", line 654, in m","The median repaired row moved 39279 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,credit,C3,10,M2_codegen,,credit_C3_10,,0,0,0,,
+pilot,credit,C3,10,M2_codegen,,credit_C3_10,,0,0,0,,
+pilot,credit,C3,30,M3_codegen_pm4py,,credit_C3_30,0,0,0,0,,
+pilot,credit,C3,30,M3_codegen_pm4py,,credit_C3_30,2,1,0,1,,"The median repaired row moved 38785 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,credit,C3,30,M3_codegen_pm4py,,credit_C3_30,1,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""c:\content\ts_repair\credit\runs\credit_C3_30\M3_codegen_pm4py\cand_1\generated_repair.py"", line 803, in <module>     main()   File ""c:\content\ts_repair\credit\runs\credit_C3_30\M3_codegen_pm4py\cand_1\generated_repair.py"", li","The median repaired row moved 38785 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,credit,C3,30,M3_codegen_pm4py,,credit_C3_30,,0,0,0,,
+pilot,credit,MIX,30,M2_codegen,,credit_MIX_30,0,0,0,0,,
+pilot,credit,MIX,30,M2_codegen,,credit_MIX_30,2,0,0,0,,
+pilot,credit,MIX,30,M2_codegen,,credit_MIX_30,1,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\indexes\base.py"", line 3805, in get_loc     return self._engine.get_loc(cast",136 negative durations remain after repair.
+pilot,credit,MIX,30,M2_codegen,,credit_MIX_30,,0,0,0,,
+pilot,credit,MIX,30,M3_codegen_pm4py,,credit_MIX_30,0,0,0,0,,
+pilot,credit,MIX,30,M3_codegen_pm4py,,credit_MIX_30,2,0,0,0,,
+pilot,credit,MIX,30,M3_codegen_pm4py,,credit_MIX_30,1,1,0,1,,229 negative durations remain after repair.
+pilot,credit,MIX,30,M3_codegen_pm4py,,credit_MIX_30,,0,0,0,,
+pilot,hospital,C1,10,M2_codegen,,hospital_C1_10,,0,0,1,,
+pilot,hospital,C1,10,M2_codegen,,hospital_C1_10,,0,0,1,,
+pilot,hospital,C1,10,M3_codegen_pm4py,,hospital_C1_10,,0,0,1,,
+pilot,hospital,C1,10,M3_codegen_pm4py,,hospital_C1_10,,0,0,1,,
+pilot,hospital,C1,30,M2_codegen,,hospital_C1_30,,0,0,1,,
+pilot,hospital,C1,30,M2_codegen,,hospital_C1_30,,0,0,1,,
+pilot,hospital,C1,30,M3_codegen_pm4py,,hospital_C1_30,,0,0,1,,
+pilot,hospital,C1,30,M3_codegen_pm4py,,hospital_C1_30,,0,0,1,,
+pilot,hospital,C2,10,M2_codegen,,hospital_C2_10,,0,0,1,,
+pilot,hospital,C2,10,M2_codegen,,hospital_C2_10,,0,0,1,,
+pilot,hospital,C2,10,M3_codegen_pm4py,,hospital_C2_10,,0,0,1,,
+pilot,hospital,C2,10,M3_codegen_pm4py,,hospital_C2_10,,0,0,1,,
+pilot,hospital,C2,30,M2_codegen,,hospital_C2_30,,0,0,1,,
+pilot,hospital,C2,30,M2_codegen,,hospital_C2_30,,0,0,1,,
+pilot,hospital,C2,30,M3_codegen_pm4py,,hospital_C2_30,,0,0,1,,
+pilot,hospital,C2,30,M3_codegen_pm4py,,hospital_C2_30,,0,0,1,,
+pilot,hospital,C3,10,M2_codegen,,hospital_C3_10,,0,0,1,,
+pilot,hospital,C3,10,M3_codegen_pm4py,,hospital_C3_10,,0,0,1,,
+pilot,hospital,C3,10,M3_codegen_pm4py,,hospital_C3_10,,0,0,1,,
+pilot,hospital,C3,30,M2_codegen,,hospital_C3_30,,0,0,1,,
+pilot,hospital,C3,30,M2_codegen,,hospital_C3_30,,0,0,1,,
+pilot,hospital,C3,30,M3_codegen_pm4py,,hospital_C3_30,,0,0,1,,
+pilot,hospital,C3,30,M3_codegen_pm4py,,hospital_C3_30,,0,0,1,,
+pilot,hospital,MIX,30,M2_codegen,,hospital_MIX_30,2,1,0,1,,"127 negative durations remain after repair. | The median repaired row moved 6352 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,hospital,MIX,30,M2_codegen,,hospital_MIX_30,1,1,0,1,,"127 negative durations remain after repair. | The median repaired row moved 86817 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,hospital,MIX,30,M2_codegen,,hospital_MIX_30,0,2,1,1,"RuntimeError: script exited 1 Traceback (most recent call last):   File ""c:\content\ts_repair\hospital\runs\hospital_MIX_30\M2_codegen\cand_0\generated_repair.py"", line 827, in <module>     main()   File ""c:\content\ts_repair\hospital\runs\hospital_MIX_30\M2_codegen\cand_0\generated_repair.py"", line","125 negative durations remain after repair. | The median repaired row moved 6352 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,hospital,MIX,30,M2_codegen,,hospital_MIX_30,,0,0,0,,
+pilot,hospital,MIX,30,M3_codegen_pm4py,,hospital_MIX_30,0,0,0,0,,
+pilot,hospital,MIX,30,M3_codegen_pm4py,,hospital_MIX_30,1,1,0,1,,"125 negative durations remain after repair. | The median repaired row moved 6352 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,hospital,MIX,30,M3_codegen_pm4py,,hospital_MIX_30,2,1,0,1,,"124 negative durations remain after repair. | The median repaired row moved 6352 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,hospital,MIX,30,M3_codegen_pm4py,,hospital_MIX_30,,0,0,0,,
+pilot,pub,C3,10,M2_codegen,,pub_C3_10,0,0,0,0,,
+pilot,pub,C3,10,M2_codegen,,pub_C3_10,2,2,1,1,"ValueError: NO-OP: 54% of the 300 corrupted rows came back with exactly the timestamp they went in with. Every row whose error_category is not CLEAN must be assigned a new value. If a validation branch in your code rejects a candidate repair, it must emit its next-best estimate; it must NOT fall bac","The median repaired row moved 71139 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,pub,C3,10,M2_codegen,,pub_C3_10,1,2,1,1,"ValueError: NO-OP: 54% of the 300 corrupted rows came back with exactly the timestamp they went in with. Every row whose error_category is not CLEAN must be assigned a new value. If a validation branch in your code rejects a candidate repair, it must emit its next-best estimate; it must NOT fall bac","96 negative durations remain after repair. | The median repaired row moved 68400 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,pub,C3,10,M2_codegen,,pub_C3_10,,0,0,0,,
+pilot,pub,C3,10,M3_codegen_pm4py,,pub_C3_10,1,0,0,0,,
+pilot,pub,C3,10,M3_codegen_pm4py,,pub_C3_10,2,1,0,1,,"The median repaired row moved 70593 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,pub,C3,10,M3_codegen_pm4py,,pub_C3_10,0,2,1,1,"RuntimeError: script exited 1 codegen_pm4py\cand_0\generated_repair.py:515: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.   t = t.floor(""S"") c:\content\ts_repair\pub\runs\pub_C3_10\M3_codegen_pm4py\cand_0\generated_repair.py:515: FutureWarning: 'S'","The median repaired row moved 70231 seconds from its observed value. Under form-based capture the observed value is one of the block's own timestamps, so most rows should move much less."
+pilot,pub,C3,10,M3_codegen_pm4py,,pub_C3_10,,0,0,0,,
+pilot,pub,MIX,30,M2_codegen,,pub_MIX_30,2,0,0,0,,
+pilot,pub,MIX,30,M2_codegen,,pub_MIX_30,1,0,0,0,,
+pilot,pub,MIX,30,M2_codegen,,pub_MIX_30,0,1,0,1,,35% of repaired C1 blocks have a span outside the p10-p90 range of block_span_profile. The spacing statistic is wrong for this log. | 145 negative durations remain after repair.
+pilot,pub,MIX,30,M2_codegen,,pub_MIX_30,,0,0,0,,
+pilot,pub,MIX,30,M3_codegen_pm4py,,pub_MIX_30,0,0,0,0,,
+pilot,pub,MIX,30,M3_codegen_pm4py,,pub_MIX_30,2,1,0,1,,27% of repaired C1 blocks have a span outside the p10-p90 range of block_span_profile. The spacing statistic is wrong for this log. | 144 negative durations remain after repair.
+pilot,pub,MIX,30,M3_codegen_pm4py,,pub_MIX_30,1,1,0,1,,26% of repaired C1 blocks have a span outside the p10-p90 range of block_span_profile. The spacing statistic is wrong for this log. | 150 negative durations remain after repair.
+pilot,pub,MIX,30,M3_codegen_pm4py,,pub_MIX_30,,0,0,0,,
+pilot,pub,MIX,30,M3_codegen_pm4py,,pub_MIX_30,,0,0,0,,
+pilot,bpic12,C1,10,M2_codegen,,bpic12_C1_10,,0,0,1,,
+pilot,bpic12,C1,10,M3_codegen_pm4py,,bpic12_C1_10,,0,0,0,,
+pilot,bpic12,C1,10,M3_codegen_pm4py,,bpic12_C1_10,,0,0,1,,
+pilot,bpic12,C1,30,M2_codegen,,bpic12_C1_30,,0,0,1,,
+pilot,bpic12,C1,30,M3_codegen_pm4py,,bpic12_C1_30,,0,0,1,,
+pilot,bpic12,C2,10,M2_codegen,,bpic12_C2_10,,0,0,1,,
+pilot,bpic12,C2,10,M3_codegen_pm4py,,bpic12_C2_10,,0,0,1,,
+pilot,bpic12,C2,30,M2_codegen,,bpic12_C2_30,,0,0,1,,
+pilot,bpic12,C2,30,M3_codegen_pm4py,,bpic12_C2_30,,0,0,1,,
+pilot,bpic12,C3,10,M2_codegen,,bpic12_C3_10,,0,0,1,,
+pilot,bpic12,C3,10,M3_codegen_pm4py,,bpic12_C3_10,,0,0,0,,
+pilot,bpic12,C3,10,M3_codegen_pm4py,,bpic12_C3_10,,0,0,1,,
+pilot,bpic12,C3,30,M2_codegen,,bpic12_C3_30,,0,0,1,,
+pilot,bpic12,C3,30,M3_codegen_pm4py,,bpic12_C3_30,,0,0,1,,
+pilot,bpic12,MIX,30,M2_codegen,,bpic12_MIX_30,,0,0,1,,
+pilot,bpic12,MIX,30,M3_codegen_pm4py,,bpic12_MIX_30,,0,0,1,,
+pilot,bpic,C1,10,M2_codegen,,bpic_C1_10,,0,0,1,,
+pilot,bpic,C1,10,M3_codegen_pm4py,,bpic_C1_10,,0,0,0,,
+pilot,bpic,C1,10,M3_codegen_pm4py,,bpic_C1_10,,0,0,1,,
+pilot,bpic,C1,30,M2_codegen,,bpic_C1_30,,0,0,1,,
+pilot,bpic,C1,30,M3_codegen_pm4py,,bpic_C1_30,,0,0,0,,
+pilot,bpic,C1,30,M3_codegen_pm4py,,bpic_C1_30,,0,0,1,,
+pilot,bpic,C2,10,M2_codegen,,bpic_C2_10,,0,0,1,,
+pilot,bpic,C2,10,M3_codegen_pm4py,,bpic_C2_10,,0,0,1,,
+pilot,bpic,C2,30,M2_codegen,,bpic_C2_30,,0,0,1,,
+pilot,bpic,C2,30,M3_codegen_pm4py,,bpic_C2_30,,0,0,1,,
+pilot,bpic,C3,10,M2_codegen,,bpic_C3_10,,0,0,1,,
+pilot,bpic,C3,10,M3_codegen_pm4py,,bpic_C3_10,,0,0,1,,
+pilot,bpic,C3,30,M2_codegen,,bpic_C3_30,,0,0,1,,
+pilot,bpic,C3,30,M3_codegen_pm4py,,bpic_C3_30,,0,0,1,,
+pilot,bpic,MIX,30,M2_codegen,,bpic_MIX_30,,0,0,0,,
+pilot,bpic,MIX,30,M2_codegen,,bpic_MIX_30,,0,0,1,,
+pilot,bpic,MIX,30,M3_codegen_pm4py,,bpic_MIX_30,,0,0,1,,

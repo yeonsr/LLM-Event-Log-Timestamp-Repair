@@ -1,0 +1,12 @@
+# core
+pandas>=1.5
+numpy>=1.23
+# LSTM baseline (B2). Without it that baseline falls back to gradient boosting,
+# which is NOT what the paper reports -- install it to reproduce the LSTM rows.
+torch>=2.0
+# process statistics used by LLMD (M3)
+pm4py>=2.7
+# LLM arms only
+openai>=1.0
+# optional; enables the bootstrap confidence intervals
+scipy>=1.10

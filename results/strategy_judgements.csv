@@ -1,0 +1,4 @@
+log,category,method,trial,judge_model,perm,beam,transprob,rightanch,r_ceiling,r_evidence,median,mean,lognorm,uniform,rescale,firstts,monotone,fallback
+bpic12,C1,LLMD,1,gpt-5,1,0,1,1,1,1,0,0,0,0,1,1,1,1
+bpic12,C1,LLMD,2,gpt-5,1,0,1,1,1,1,0,0,0,1,1,1,1,1
+bpic12,C1,LLMD,3,gpt-5,1,1,1,1,1,1,0,0,0,0,1,1,1,1
