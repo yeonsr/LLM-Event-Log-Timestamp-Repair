@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "t = left_ts + pd.Timedelta(seconds=left_pad + usable * frac)", "why": "It scales cumulative per-transition weights to fill the anchor span, jointly fitting all gaps to the interval."}

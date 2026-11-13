@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "ng = 1.0 + extra * (extra_room / extra_raw)", "why": "It proportionally rescales precomputed gap estimates to fit the right-anchor span rather than solving a per-transition weighted optimization."}

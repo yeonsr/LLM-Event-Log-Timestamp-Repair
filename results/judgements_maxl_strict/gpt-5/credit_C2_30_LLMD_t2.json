@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "candidates.append(right_ts - pd.to_timedelta(sec, unit=\"s\"))", "why": "It uses the right anchor to subtract a looked-up expected gap to form a candidate, rather than solving a transition-weighted constrained optimization across the span."}

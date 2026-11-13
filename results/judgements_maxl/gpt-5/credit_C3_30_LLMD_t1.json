@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "seconds = [x / max_offset * span for x in work_offsets]", "why": "It lays out per-transition offsets from the left and then shifts/rescales to fit the span, using the right anchor only to bound slack rather than solving a joint, weighted duration model."}

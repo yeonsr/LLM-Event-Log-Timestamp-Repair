@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "last_w = edge_weight_seconds(acts[-1], next_act) if n and next_act is not None else None", "why": "It uses per-pair durations for the final damaged-to-right transition, so the right anchor\u2019s activity participates in the modeled chain."}

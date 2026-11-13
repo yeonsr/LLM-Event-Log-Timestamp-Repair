@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "gaps, clamped = compress_gaps_to_room(base_gaps, upper)", "why": "It only compresses precomputed per-transition gaps to fit within the right anchor bound, without jointly optimizing durations or modeling a transition into the right anchor."}

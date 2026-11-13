@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "offsets = [x * scale for x in offsets]", "why": "It proportionally rescales preselected gaps to fit within the left/right-anchored window instead of solving a transition-weighted optimisation."}

@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "candidates.append(right_ts - td(preferred_gap(act, act_right)))", "why": "It uses the right anchor to propose a direct looked-up gap and to bound candidates, not to solve a per-transition weighted equality-constrained fit."}

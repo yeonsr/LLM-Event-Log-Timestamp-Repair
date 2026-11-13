@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "secs = [s * ratio for s in cumulative_seconds]", "why": "It proportionally rescales precomputed gaps to fit between anchors and clamps, with no optimization objective or per-transition weighting."}

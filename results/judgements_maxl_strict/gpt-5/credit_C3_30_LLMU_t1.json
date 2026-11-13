@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(1.0, g * scale) for g in gaps]", "why": "It proportionally rescales preselected gap statistics to fit before the right anchor, rather than solving a transition-weighted constrained objective."}

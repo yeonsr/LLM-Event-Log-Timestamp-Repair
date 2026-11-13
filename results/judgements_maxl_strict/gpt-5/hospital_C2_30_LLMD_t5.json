@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "preferreds.append(right_t - pd.Timedelta(seconds=gap))", "why": "It computes a single timestamp as right_t minus a looked-up preferred gap and clamps to bounds, not optimizing multiple gaps under an equality constraint with per-transition weights."}

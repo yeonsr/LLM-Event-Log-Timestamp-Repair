@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "new_gaps = [1.0 + max(0.0, g - 1.0) * scale for g in gaps]", "why": "It proportionally rescales all gaps to fit the interval rather than jointly optimizing durations against both anchors using a probabilistic model."}

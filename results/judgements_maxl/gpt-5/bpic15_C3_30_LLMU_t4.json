@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "scaled_gaps = rescale_gaps(gaps, available_seconds=available, min_unit_seconds=1.0)", "why": "It proportionally rescales precomputed per-transition gaps to fit before the right anchor rather than jointly solving durations or modeling the final transition into the right anchor."}

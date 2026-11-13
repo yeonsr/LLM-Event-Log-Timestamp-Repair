@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [g * room / total for g in pos_gaps]", "why": "It proportionally rescales pre-guessed gaps to fit the right anchor, not solving a per-transition weighted constrained optimization."}

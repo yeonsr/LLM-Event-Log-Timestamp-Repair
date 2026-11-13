@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "if right_t is not None:\n        est = min(est, right_t)", "why": "It lays out from the left using a single pair\u2019s spacing and merely clamps to the right anchor without jointly optimizing both gaps."}

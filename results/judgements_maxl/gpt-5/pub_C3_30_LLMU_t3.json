@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "scaled = [max(1.0, g * scale) for g in gaps]", "why": "It proportionally rescales internal gaps to fit before the right anchor instead of jointly optimizing durations using a per-transition model."}

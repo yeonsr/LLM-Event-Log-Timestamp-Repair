@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "est = clamp(est, lo, hi)", "why": "It only bounds the moved timestamp between anchors rather than jointly optimizing durations to span the anchors or chaining into the right anchor\u2019s model."}

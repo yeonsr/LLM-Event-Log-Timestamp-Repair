@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "e = right_t - pd.to_timedelta(duration_prior(act, right_a), unit=\"s\")", "why": "It directly subtracts a looked-up duration from the right anchor and uses bounds; no equality-constrained optimisation with transition-specific weights is performed."}

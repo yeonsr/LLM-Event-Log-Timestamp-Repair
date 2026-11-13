@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "candidates.append(right_t - pd.Timedelta(seconds=g))", "why": "It directly subtracts a looked-up gap from the right anchor and then clamps/averages, without solving a weighted optimization under an equality constraint."}

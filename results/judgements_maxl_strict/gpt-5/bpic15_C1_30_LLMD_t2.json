@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [max(step_ns, int(math.floor(x * room_ns / total_raw))) for x in raw]", "why": "It proportionally rescales precomputed gaps to fit before the right anchor instead of solving a transition-weighted optimization objective."}

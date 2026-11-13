@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "extra = int(rem * (oe / total_extra)) if total_extra > 0 else int(rem / len(orig_extra))", "why": "It lays out gaps from the left using per-pair medians and then proportionally rescales to fit before the right anchor, rather than solving a joint duration model with the right anchor."}

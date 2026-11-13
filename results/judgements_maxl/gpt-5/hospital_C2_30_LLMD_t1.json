@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "sec = choose_stat((act, next_act)) if edge_exists(act, next_act) else GLOBAL_MEDIAN", "why": "It estimates an event by using the per-transition statistic into the right anchor\u2019s activity and anchors it via next_t - sec."}

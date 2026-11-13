@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "raw_extra = extra * target_extra / scalable_total", "why": "It proportionally rescales preset gaps to fit the right-anchor span instead of solving a transition-weighted optimization objective."}

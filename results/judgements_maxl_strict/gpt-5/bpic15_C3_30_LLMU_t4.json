@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [min_unit_seconds + extra_room * (g / raw_total) for g in raw_extra]", "why": "It proportionally rescales precomputed gaps to fit the right anchor and clamps, not solving a per\u2011transition weighted optimisation."}

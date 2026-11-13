@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "ng = g * scale", "why": "It proportionally rescales preselected gaps to fit the right anchor instead of solving a per-transition weighted optimization problem."}

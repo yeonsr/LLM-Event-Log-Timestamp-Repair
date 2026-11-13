@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "cands.append(next_row[\"dt\"] - pd.Timedelta(seconds=float(sec)))", "why": "It sets the time as right-anchor minus a looked-up statistic and then clamps, not by solving a weighted constrained optimization."}

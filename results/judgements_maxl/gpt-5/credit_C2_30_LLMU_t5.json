@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "scaled = [max(1.0, g * factor) for g in gaps]", "why": "It lays out gaps from the left and proportionally rescales to fit before the right anchor rather than jointly solving with a per-transition model including the right anchor."}

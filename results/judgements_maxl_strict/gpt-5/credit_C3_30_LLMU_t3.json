@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "new_gaps = [1.0 + surplus * w / wsum for w in weights]", "why": "It proportionally redistributes the available span across gaps to meet the right bound rather than solving a per\u2011transition weighted optimization objective."}

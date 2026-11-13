@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "times = ensure_distinct_forward(times, observed_dt, right_t)", "why": "It lays out per-pair fixed gaps forward then only uses the right anchor to bound/rescale the sequence, not to jointly optimize durations or model a duration to the right anchor activity."}

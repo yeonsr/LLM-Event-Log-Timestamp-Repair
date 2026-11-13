@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "candidates.append(prev_t + (next_t - prev_t) * alpha)", "why": "It proportionally splits the span using fixed per-pair statistics and bounding, not by optimizing a transition-weighted objective under equality constraints."}

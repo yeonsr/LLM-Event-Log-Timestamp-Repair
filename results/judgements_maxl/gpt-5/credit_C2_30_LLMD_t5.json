@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "        if right_t is not None:\n            score += gap_penalty((right_t - c).total_seconds(), act, right_act)", "why": "It optimizes a timestamp using a joint score that includes a per-transition penalty to the right anchor based on the (act, right_act) duration model, not merely as a bound."}

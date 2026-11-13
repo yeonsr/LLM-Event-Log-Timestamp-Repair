@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "candidate_times[j] = left_anchor + pd.Timedelta(seconds=window_sec * frac)", "why": "It proportionally allocates the span between anchors using cumulative weights, not by optimizing a per-transition weighted objective."}

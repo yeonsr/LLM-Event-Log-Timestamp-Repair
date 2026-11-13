@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "scaled = [max(1.0, g * scale) for g in min_gaps]", "why": "It lays out gaps then proportionally rescales to fit the right anchor, rather than optimizing durations or modeling a transition to the right anchor."}

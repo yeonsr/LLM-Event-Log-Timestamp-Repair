@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "est = min(est, right_t)", "why": "It looks up a single gap and then clamps it to the right anchor instead of solving a transition-weighted constrained optimization."}

@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(1.0, g * scale) for g in gaps]", "why": "It uses fixed per-pair gap estimates then proportionally rescales/clamps to fit the right anchor without solving a transition-weighted objective."}

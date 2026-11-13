@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "high_i = min(tj, right_anchor)", "why": "It only uses the right anchor to bound the estimate and then clamps to [low, high], without jointly optimizing gaps or fitting into the right-anchor pair model."}

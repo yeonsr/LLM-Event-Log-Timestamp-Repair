@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "new_gaps = [1.0 + max(0.0, g - 1.0) * scale for g in gaps]", "why": "It proportionally rescales prechosen gaps to fit before the right anchor and lays them out forward, without optimizing a transition-weighted objective."}

@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "factor = room / total_gap", "why": "It computes per-transition gap guesses and then uniformly rescales them to fit before the right anchor, not optimizing jointly or modeling a transition into the right anchor."}

@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [max(min_step, g * scale) for g in increments]", "why": "It proportionally rescales preselected per-pair gaps to fit the right anchor instead of solving a per-transition weighted optimization under an equality constraint."}

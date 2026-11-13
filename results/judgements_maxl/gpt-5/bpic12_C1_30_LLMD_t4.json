@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "total = min(planned_total, room)", "why": "It only caps and proportionally rescales internal gaps to fit before the right anchor, without optimizing to the anchor span or modeling a transition into the right anchor."}

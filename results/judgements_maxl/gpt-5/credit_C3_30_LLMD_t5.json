@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "weights.append(max(right_w if right_w is not None else fallback_gap(), 0.0))", "why": "It proportionally divides the left\u2013right span using per-transition weights and includes the final transition into the right anchor."}

@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [max(pd.Timedelta(seconds=g.total_seconds() * factor), tick) for g in proposed]", "why": "Gaps are laid out from per-pair statistics and then proportionally rescaled to fit the right anchor, not by solving a transition-weighted objective."}

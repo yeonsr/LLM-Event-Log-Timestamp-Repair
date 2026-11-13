@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scale = (target_cap - minsum) / extrasum", "why": "It proportionally rescales preset gaps to fit the right anchor rather than solving a transition-weighted optimization objective."}

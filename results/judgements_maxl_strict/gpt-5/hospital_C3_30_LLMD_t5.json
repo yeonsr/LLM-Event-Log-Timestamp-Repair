@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "candidate = clamp_between(candidate, left_anchor_time, right_anchor_time)", "why": "It builds per-event candidates from cumulative gaps and locally blends left/right estimates, then merely clamps to the anchors without solving a joint weighted objective under an equality constraint."}

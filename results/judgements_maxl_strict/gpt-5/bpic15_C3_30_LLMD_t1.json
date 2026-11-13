@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "right_est = right_t - pd.Timedelta(seconds=gap)", "why": "It sets times by subtracting fixed gaps from the right anchor and simple clamping/choice, not by solving a weighted optimization across transitions."}

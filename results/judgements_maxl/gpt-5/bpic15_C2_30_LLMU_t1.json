@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "scaled = [g * room / total for g in pos_gaps]", "why": "It proportionally rescales forward-laid gaps to fit before the right anchor, without jointly optimizing durations or using the right anchor\u2019s duration profile."}

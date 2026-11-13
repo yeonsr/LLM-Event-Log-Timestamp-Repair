@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "raw_times.append(left_anchor + pd.to_timedelta(total_window * frac, unit=\"s\"))", "why": "It proportionally allocates the anchor span by normalized weights, not by optimizing a per-transition weighted objective."}

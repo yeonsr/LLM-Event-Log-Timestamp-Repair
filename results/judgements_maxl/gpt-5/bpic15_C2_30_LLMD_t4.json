@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "score += duration_penalty(act, next_act, max(0.0, (t_next - c).total_seconds()))", "why": "It optimizes candidate times by summing per-transition penalties for both left and right anchors, using the right anchor\u2019s pair-specific duration profile."}

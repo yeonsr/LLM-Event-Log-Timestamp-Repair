@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(min_step_seconds, g * ratio) for g in gaps]", "why": "It picks per-pair gap statistics then proportionally rescales to fit the right anchor without optimizing an objective or using transition-specific weights."}

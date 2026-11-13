@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(g * scale, step_sec) for g in gaps]", "why": "It builds gaps from lookup stats and then proportionally rescales to fit the right anchor, without solving a transition-weighted optimization."}

@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "span = min(raw_span, available)", "why": "It lays out from the left using internal pair estimates and then clips/rescales to fit before the right anchor without modeling a transition into the right anchor."}

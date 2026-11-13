@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "scale = room / total if total > 0 else 1.0", "why": "It spaces using per-pair medians then proportionally rescales to fit before the right anchor, not a joint optimization against both anchors."}

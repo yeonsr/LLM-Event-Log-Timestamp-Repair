@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "last = choose_edge_gap(acts[-1], right_act)", "why": "When both anchors exist it partitions the left\u2013right span in proportion to per-transition weights that include the edge into the right anchor."}

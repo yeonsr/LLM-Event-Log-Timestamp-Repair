@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(min_gap, g * scale) for g in gaps]", "why": "It proportionally rescales preset gaps to fit the right anchor and clamps, without solving a transition-weighted optimization under equality constraints."}

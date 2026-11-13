@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "gaps = [min_gap + (g - min_gap) * ratio for g in gaps]", "why": "It simply scales the per-pair gaps to fit within the right-bound window rather than jointly optimizing durations against both anchors or modeling a transition into the right anchor."}

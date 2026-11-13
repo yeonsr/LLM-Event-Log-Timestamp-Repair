@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [shared_ts + pd.Timedelta(seconds=(r / raw_total) * target_span) for r in raw]", "why": "It lays out durations from lookup stats then proportionally rescales to the right anchor, not solving a per-transition weighted objective."}

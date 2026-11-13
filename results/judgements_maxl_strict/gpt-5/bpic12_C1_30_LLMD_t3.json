@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled_steps = [max(min_step, s * factor) for s in steps]", "why": "It uses per-pair duration statistics and proportionally rescales/clamps to fit the right anchor, not solving a per-transition weighted objective."}

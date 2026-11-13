@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(1.0, g * scale) for g in gaps]", "why": "It fits to the right anchor by proportionally rescaling heuristic gaps, not by solving a per-transition weighted objective."}

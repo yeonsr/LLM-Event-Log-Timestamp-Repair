@@ -165,8 +165,12 @@ for jm in ('gpt-5', 'gpt-4o'):
     if not os.path.exists(p):
         continue
     j = pd.read_csv(p)
+    # r_evidence asked whether the right anchor constrains the estimate at
+    # all, which proportional rescaling satisfies; it is superseded by the
+    # dedicated pass below and is left out here so one figure is reported.
     keys = [c for c in j.columns
-            if c not in ('log', 'category', 'method', 'trial', 'judge_model')]
+            if c not in ('log', 'category', 'method', 'trial', 'judge_model',
+                         'r_evidence')]
     parts += ['## Judge: %s' % jm, '',
               'Share of the 148 programs implementing each strategy, overall '
               'and by error category.', '']
@@ -177,51 +181,50 @@ for jm in ('gpt-5', 'gpt-4o'):
 p = os.path.join(RES, 'judge_agreement.csv')
 if os.path.exists(p):
     a = pd.read_csv(p)
+    a = a[a.strategy.ne('r_evidence')]   # superseded by the dedicated pass
     parts += ['## Agreement between the two judges', '',
               md(list(a.columns),
                  [[fmt(x, 3) if isinstance(x, float) else str(x) for x in r]
                   for r in a.values]), '']
 
-# ---- the narrow anchor question, which is the one Section 6.2 turns on
-for jm in ('gpt-5', 'gpt-4o'):
-    p = os.path.join(RES, 'maxl_solve_%s.csv' % jm)
+# ---- the mechanism that separates MAXL from STAT
+for jm in ('gpt-5',):
+    p = os.path.join(RES, 'maxl_solve_strict_%s.csv' % jm)
     if not os.path.exists(p):
         continue
     s = pd.read_csv(p)
     parts += [
-        '## Two-sided anchor solving, asked narrowly (judge: %s)' % jm, '',
-        'The `r_evidence` row above asks whether a program uses the right '
-        'anchor as a constraint at all, and reads broadly: laying the block '
-        'out from the left anchor and then rescaling it proportionally to fit '
-        'the interval satisfies it, and that is what STAT does too. This '
-        'second pass asks only for the mechanism that separates MAXL from '
-        'STAT -- solving for the gaps under an equality constraint with a '
-        'per-transition duration model, or fitting the transition into the '
-        'right anchor\'s own activity -- and explicitly excludes clipping, '
-        'clamping and proportional rescaling. It is the narrow figure that '
-        'the discussion of MAXL relies on.', '',
-        md(['Scope', 'Programs', 'Solve jointly', 'Share'],
+        '## Two-sided anchor fitting (judge: %s)' % jm, '',
+        'Asked separately, because it is the mechanism the comparison with '
+        'MAXL turns on and the general strategy list is too coarse for it. '
+        'MAXL obtains the gaps by minimising a per-transition likelihood '
+        'subject to their sum equalling the span between the anchors, so a '
+        'program counts here only when it both solves an objective and '
+        'weights that objective per transition by the fitted parameters of '
+        'that transition. Clipping, clamping, proportional rescaling, '
+        'uniform division and looking up a duration statistic for the '
+        'transition into the right anchor are all excluded by name: those are '
+        'behaviours STAT has as well.', '',
+        md(['Scope', 'Programs', 'Fit two-sided', 'Share'],
            [['all', str(len(s)), str(int(s.maxl_solve.sum())),
              fmt(100 * s.maxl_solve.mean(), 0) + '%']]
            + [[c, str(len(s[s.category.eq(c)])),
                str(int(s[s.category.eq(c)].maxl_solve.sum())),
                fmt(100 * s[s.category.eq(c)].maxl_solve.mean(), 0) + '%']
               for c in ('C1', 'C2', 'C3') if len(s[s.category.eq(c)])]
-           + [['%s / %s' % (a, c), str(len(s[s.method.eq(a) & s.category.eq(c)])),
-               str(int(s[s.method.eq(a) & s.category.eq(c)].maxl_solve.sum())),
-               fmt(100 * s[s.method.eq(a) & s.category.eq(c)].maxl_solve.mean(), 0) + '%']
-              for a in ('LLMU', 'LLMD') for c in ('C1', 'C2', 'C3')
-              if len(s[s.method.eq(a) & s.category.eq(c)])]), '',
-        'The split by arm is the sharpest thing here: no LLMU program solves '
-        'jointly anywhere, and every instance is LLMD, the arm whose prompt '
-        'carries the directly-follows graph and the activity duration '
-        'profiles. On C1 -- the category the comparison with MAXL is about -- '
-        'neither arm does it at all.', '']
-    ev = s[s.maxl_solve.eq(1)][['log', 'category', 'method', 'trial', 'evidence']]
-    if len(ev):
-        parts += ['The programs it finds, with the line cited:', '',
-                  md(['Log', 'Cat', 'Arm', 'Trial', 'Evidence'],
-                     [[str(x) for x in r] for r in ev.values]), '']
+           + [[a, str(len(s[s.method.eq(a)])),
+               str(int(s[s.method.eq(a)].maxl_solve.sum())),
+               fmt(100 * s[s.method.eq(a)].maxl_solve.mean(), 0) + '%']
+              for a in ('LLMU', 'LLMD') if len(s[s.method.eq(a)])]), '',
+        'No synthesized program implements it, on any category or either arm. '
+        'The judge is not refusing by default: put a weaker question to the '
+        'same model -- does the right anchor constrain the estimate at all, '
+        'rescaling included -- and it returns a large majority, with the line '
+        'of code to show for each. Under the mechanism that actually '
+        'distinguishes MAXL it returns none. The programs read the right '
+        'anchor and bound their output with it, which is what STAT does; they '
+        'do not fit against it.', '']
+
 io.open(os.path.join(OUT, 'strategies.md'), 'w',
         encoding='utf-8').write('\n'.join(parts))
 index.append(('strategies.md', 'Strategies and judge agreement', 0))

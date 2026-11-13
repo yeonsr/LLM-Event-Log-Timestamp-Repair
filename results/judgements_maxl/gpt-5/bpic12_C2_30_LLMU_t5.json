@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "newt = [shared_ts + pd.to_timedelta(i * span / max(len(ordered_pos)-1, 1), unit=\"s\") for i in range(len(ordered_pos))]", "why": "It evenly spaces events to fit before the right anchor rather than jointly optimizing per-transition durations or modeling the final transition into the right anchor."}

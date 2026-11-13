@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "chain_acts = ([prev_act] if prev_act is not None else []) + activities + ([next_act] if next_act is not None else [])", "why": "It incorporates the right anchor\u2019s activity into the chain and distributes the left\u2013right span using per-transition duration priors, jointly solving against both anchors."}

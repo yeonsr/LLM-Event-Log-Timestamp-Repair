@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "part = int((ex / extras_sum) * extra_room)", "why": "It proportionally rescales gaps to fit the right bound rather than solving a per-transition weighted objective."}

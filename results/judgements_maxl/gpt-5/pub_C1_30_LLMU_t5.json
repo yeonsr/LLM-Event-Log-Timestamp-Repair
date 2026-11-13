@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "scaled = [max(1.0, g * target / raw_sum) for g in raw]", "why": "It lays out per-transition gaps and proportionally rescales them to fit before the right anchor, without jointly optimizing durations or modeling a gap into the right anchor."}

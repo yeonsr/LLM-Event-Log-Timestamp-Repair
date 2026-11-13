@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scale = span / cum[-1]", "why": "It proportionally rescales heuristic gaps to fit within the right-anchor span instead of solving a per-transition weighted optimization objective."}

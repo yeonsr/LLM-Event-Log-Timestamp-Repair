@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "newt = [shared_ts + pd.to_timedelta(i * span / max(len(ordered_pos)-1, 1), unit=\"s\") for i in range(len(ordered_pos))]", "why": "It uniformly allocates the span to the right anchor after clamping, not solving a per-transition weighted objective."}

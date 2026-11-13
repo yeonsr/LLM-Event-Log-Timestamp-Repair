@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [max(1.0, g * scale) for g in raw_gaps]", "why": "It proportionally rescales preset gaps to fit the right anchor instead of optimizing a weighted objective per transition."}

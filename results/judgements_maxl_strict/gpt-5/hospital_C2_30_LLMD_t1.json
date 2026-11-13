@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "candidates.append(next_t - td_seconds(sec))", "why": "It directly sets the gap to a looked-up per-pair statistic from the right anchor and clamps bounds, without solving a constrained objective or allocating span with transition-specific weights."}

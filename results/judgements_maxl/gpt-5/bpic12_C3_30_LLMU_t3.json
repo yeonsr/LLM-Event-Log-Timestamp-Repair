@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "available_ns = int((right_ts.value - observed.value))", "why": "It lays out intra-block gaps from pair medians and then clamps/rescales to fit the observed\u2192right anchor span, without optimizing jointly or modeling a final gap to the right anchor."}

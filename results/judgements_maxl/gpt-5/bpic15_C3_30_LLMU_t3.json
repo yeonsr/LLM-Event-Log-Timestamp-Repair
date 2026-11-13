@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "scale = span / cum[-1]", "why": "It proportionally rescales the internal gaps to fit within the bounded span (from the right anchor) instead of jointly solving durations against both anchors or fitting a transition into the right anc"}

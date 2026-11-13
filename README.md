@@ -74,11 +74,11 @@ data for loading.
 | `results/strategy_judgements_gpt-5.csv` | the strategies each program implements, as judged by GPT-5 |
 | `results/strategy_judgements_gpt-4o.csv` | the same, by a second judge, for the agreement check |
 | `results/judge_agreement.csv` | per-strategy agreement between the two judges |
-| `results/maxl_solve_gpt-5.csv` | a second, narrower judging pass on two-sided anchor solving |
+| `results/maxl_solve_strict_gpt-5.csv` | the dedicated pass on two-sided anchor fitting |
 | `results/strategy_regression_*.csv` | the strategy vector regressed on log10(MedAE / B0) |
 | `results/strategy_features.csv` | a static pattern scan of the same programs, kept as a cross-check |
 | `results/judgements/<model>/*.json` | every verdict with the line of code it cites |
-| `results/judgements_maxl/<model>/*.json` | the same for the narrow anchor question |
+| `results/judgements_maxl_strict/<model>/*.json` | the same for the anchor-fitting question |
 
 The paper reports the subset with `scope == "ALL_POLLUTED"` at the 30 % pollution
 level. The files also contain material the paper does not discuss:
@@ -105,23 +105,26 @@ pattern-based `analysis/strategy_scan.py` is kept as an independent
 cross-check; it under-detects any strategy written as arithmetic rather than
 as a recognisable call, so the judged labels are the ones reported.
 
-## Two questions about the right anchor
+## Two-sided anchor fitting
 
-The strategy list asks whether a program uses the right anchor as a constraint
-at all. That reads broadly: a program that lays the block out from the left
-anchor and then rescales it proportionally to fit the interval satisfies it,
-and so does STAT. Asked that way, 98 % of programs qualify.
+Section 6.2 of the paper explains MAXL's standing by how the right anchor
+enters the computation: STAT lays the block out forward and treats the right
+anchor as a ceiling, while MAXL minimises a per-transition likelihood subject
+to the gaps summing to the span between the anchors.
 
-`analysis/judge_maxl_solve.py` asks the narrow question that the comparison
-with MAXL actually turns on -- solving for the gaps under an equality
-constraint with a per-transition duration model, or fitting the transition
-into the right anchor's own activity -- and excludes clipping, clamping and
-proportional rescaling explicitly. Asked that way, 28 of 148 programs qualify,
-none of them on C1 and none of them from LLMU.
+Whether the synthesized programs do the latter is asked by
+`analysis/judge_maxl_solve.py` as a question of its own, because the general
+strategy list is too coarse for it: a program that rescales its gaps
+proportionally to fit the interval is constrained by the right anchor in a
+loose sense, and that is exactly what STAT does too. The dedicated pass counts
+a program only when it solves an objective *and* weights that objective per
+transition by that transition's own fitted parameters, and it excludes
+clipping, clamping, proportional rescaling, uniform division and looking up a
+duration statistic for the final transition by name.
 
-Both figures are published because the gap between them is the finding: the
-broad property is near-universal and tells you little, while the mechanism
-that explains MAXL's advantage is absent exactly where MAXL wins.
+None of the 148 programs qualifies, on any category or either arm. The
+verdicts and the reasoning for each are in `results/maxl_solve_strict_gpt-5.csv`
+and `results/judgements_maxl_strict/`.
 
 ## Notes on the released results
 

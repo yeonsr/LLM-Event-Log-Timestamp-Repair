@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "scale = room / total", "why": "It computes per-pair gaps then proportionally rescales and clamps them to fit before the right anchor, without optimizing jointly or using a duration into the right anchor."}

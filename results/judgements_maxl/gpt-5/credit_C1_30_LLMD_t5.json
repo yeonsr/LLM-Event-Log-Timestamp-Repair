@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "factor = room / total_prop if total_prop > pd.Timedelta(0) else 1.0", "why": "It uniformly rescales internal gaps to fit within the right anchor span rather than jointly solving with a per-transition model including the right anchor."}

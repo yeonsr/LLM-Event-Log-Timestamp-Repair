@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [max(min_ns, int(g * target_total_ns / total_gap_ns)) for g in gaps_ns]", "why": "It proportionally rescales looked\u2011up gap statistics to fit under the right anchor bound rather than solving a transition\u2011weighted optimisation."}

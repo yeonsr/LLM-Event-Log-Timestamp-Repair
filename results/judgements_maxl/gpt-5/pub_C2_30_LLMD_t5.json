@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "hi = min(hi, hi_anchor)", "why": "The right anchor is only used to clamp candidate times, not to jointly solve durations against both anchors with a per-transition model."}

@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "e = right_t - pd.to_timedelta(duration_prior(act, right_a), unit=\"s\")", "why": "It computes a right-anchored estimate via the per-pair duration model and combines it with the left-based estimate, not merely using the right time as a bound."}

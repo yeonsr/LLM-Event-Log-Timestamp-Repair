@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [min_gap + (g - min_gap) * ratio for g in gaps]", "why": "It proportionally rescales precomputed gaps to fit before the right anchor, not solving a per-transition weighted constrained optimization."}

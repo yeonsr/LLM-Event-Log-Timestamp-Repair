@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "raw = [round(i * room / (n - 1)) for i in range(n)]", "why": "It fits the right anchor by evenly spacing or proportionally scaling preset gaps, not by solving a transition\u2011weighted objective."}

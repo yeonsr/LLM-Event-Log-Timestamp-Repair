@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "cands.append(next_t - pd.Timedelta(seconds=expected_gap_seconds(act, next_act)))", "why": "It sets a single timestamp from the right anchor via one per-pair gap and bounds it, not optimizing joint durations over the anchor span."}

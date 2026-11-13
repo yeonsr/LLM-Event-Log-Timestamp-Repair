@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "right_est = next_t - td_seconds(choose_spacing(curr_act, next_act))", "why": "It uses a looked-up per-pair statistic to place relative to the right anchor and bounds/clamps candidates, not a per-transition weighted constrained optimization."}

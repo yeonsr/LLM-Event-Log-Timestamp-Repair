@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "        candidates.append(right_t - pd.Timedelta(seconds=d))", "why": "It directly uses a per-pair duration with the right anchor as a bound, not solving a weighted equality-constrained optimization across the span."}

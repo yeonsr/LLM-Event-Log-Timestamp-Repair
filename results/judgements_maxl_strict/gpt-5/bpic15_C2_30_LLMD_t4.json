@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "c = clamp_dt(c, lo, hi)", "why": "It selects heuristic candidates and bounds them by the right anchor, merely scoring with per-pair penalties rather than solving a weighted equality-constrained optimization."}

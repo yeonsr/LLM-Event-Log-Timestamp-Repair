@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "scaled = [max(step_ns, int(math.floor(x * room_ns / total_raw))) for x in raw]", "why": "It lays out durations from the left and proportionally rescales them to fit before the right anchor, without any joint optimization or right-anchor transition modeling."}

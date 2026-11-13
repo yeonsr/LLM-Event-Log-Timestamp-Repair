@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "t = left_ts + pd.Timedelta(seconds=left_pad + usable * frac)", "why": "It proportionally interpolates within the anchor span using precomputed offsets, not by solving a transition-weighted objective."}

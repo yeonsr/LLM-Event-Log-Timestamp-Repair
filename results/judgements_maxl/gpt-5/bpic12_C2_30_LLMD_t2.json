@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "right_bound = min(right_bound, right_anchor[1])", "why": "The right clean anchor is only used to clamp candidate times, not to jointly solve durations against both anchors with a per-transition model."}

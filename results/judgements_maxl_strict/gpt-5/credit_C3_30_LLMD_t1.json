@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "seconds = [x / max_offset * span for x in work_offsets]", "why": "It proportionally rescales precomputed gaps to fit the anchor span rather than solving a weighted objective per transition."}

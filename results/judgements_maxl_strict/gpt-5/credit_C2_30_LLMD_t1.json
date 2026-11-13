@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "return right_ts - td_seconds(expected_gap_seconds(act, right_act))", "why": "It offsets the right anchor by a looked-up gap and clamps candidates, not solving a transition-weighted constrained optimization."}

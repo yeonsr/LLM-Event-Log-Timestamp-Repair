@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "if natural_span > available_forward:\n                target_span = max(min_span, available_forward)", "why": "It lays out gaps from the left then proportionally rescales to fit before the right anchor, rather than jointly optimizing durations with the right anchor in the model."}

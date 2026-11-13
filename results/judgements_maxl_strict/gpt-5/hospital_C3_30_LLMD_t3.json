@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "backward_candidate = right_clean[1] - pd.to_timedelta(span * frac, unit=\"s\")", "why": "It proportionally allocates the span from the right anchor using simple fractions, not by optimizing a transition-weighted objective."}

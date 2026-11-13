@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "val += abs(gap - target)", "why": "It selects a timestamp by minimizing unweighted absolute deviations to fixed per-edge targets (p25) rather than a per-transition weighted constrained fit."}

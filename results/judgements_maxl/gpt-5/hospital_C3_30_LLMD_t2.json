@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "times = [left_ts + pd.Timedelta(seconds=total_window * (c / denom)) for c in cum]", "why": "It proportionally allocates the span between anchors using per-transition weights (including the final edge into the right anchor), making the weighted gaps sum to the anchor interval."}

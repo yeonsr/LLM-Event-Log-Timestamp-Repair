@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "g = prof_gap(acts[idx_local], acts[right_idx])", "why": "It computes a candidate using the transition into the right anchor\u2019s activity via the per-pair profile, not merely bounding by the right anchor."}

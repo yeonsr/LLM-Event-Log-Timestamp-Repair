@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scale = min(1.0, max(avail / span, 0.0))", "why": "It builds gaps from looked-up stats and then linearly rescales within the anchors, not solving a per-transition weighted objective."}

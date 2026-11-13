@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(floor, g * ratio) for g in gaps]", "why": "It uniformly rescales precomputed gaps to fit the right anchor rather than solving a weighted optimization per transition."}

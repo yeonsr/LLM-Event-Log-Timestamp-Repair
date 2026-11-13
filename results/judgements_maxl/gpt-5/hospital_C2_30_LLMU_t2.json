@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "gaps = [max(min_gap, g * scale) for g in gaps]", "why": "It lays out gaps from left then proportionally rescales/clamps them to fit before the right anchor, without modeling a transition into the right anchor or jointly solving the span."}

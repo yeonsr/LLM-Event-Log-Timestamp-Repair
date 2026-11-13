@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "new_gaps = [1.0 + surplus * w / wsum for w in weights]", "why": "It proportionally rescales precomputed gaps to fit the right anchor, not solving a per-transition weighted objective based on fitted parameters."}

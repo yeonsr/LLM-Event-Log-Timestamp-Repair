@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "times[-1] = right_dt", "why": "It scales preset gaps to a span and then clips the end to the right anchor, without solving any per\u2011transition weighted objective."}

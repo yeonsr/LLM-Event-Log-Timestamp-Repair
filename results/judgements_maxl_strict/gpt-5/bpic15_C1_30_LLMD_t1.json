@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [g * (span / sum(gaps)) for g in gaps]", "why": "It proportionally rescales preset gaps to fit the right-anchor span, without solving an optimisation with per-transition weights."}

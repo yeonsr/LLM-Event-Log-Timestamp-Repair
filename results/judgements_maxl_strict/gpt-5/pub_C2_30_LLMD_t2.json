@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "cands.append(right_ts - pd.Timedelta(seconds=s))", "why": "It directly sets a candidate from the right anchor using a looked-up statistic and then clamps/scores, rather than solving a constrained, per-transition-weighted optimization across the span."}

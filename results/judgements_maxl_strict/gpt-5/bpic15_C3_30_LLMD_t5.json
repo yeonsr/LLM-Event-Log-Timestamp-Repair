@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "cands.append(right_ts - pd.to_timedelta(right_gap, unit=\"s\"))", "why": "It picks heuristic candidates (including subtracting a looked-up gap from the right anchor) and clamps to bounds, not solving a per-transition-weighted optimization under an equality constraint."}

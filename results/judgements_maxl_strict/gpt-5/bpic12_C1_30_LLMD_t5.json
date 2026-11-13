@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [min_gap_sec + (g - min_gap_sec) * scale for g in desired]", "why": "It proportionally rescales preset gaps to fit a bound instead of solving a transition\u2011weighted constrained objective."}

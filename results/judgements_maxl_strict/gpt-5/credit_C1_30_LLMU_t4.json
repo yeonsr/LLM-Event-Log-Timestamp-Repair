@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scale = min(1.0, room / s)", "why": "It proportionally rescales precomputed gaps to fit the right anchor instead of solving a per-transition weighted constrained optimization."}

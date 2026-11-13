@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "positions.append(left_t + (right_t - left_t) * cum)", "why": "It scales per-transition gap estimates across the left\u2013right anchor span using pair-specific durations to place events jointly between anchors."}

@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [g / s * total_window for g in gaps]", "why": "It proportionally allocates the left\u2013right span using precomputed gap weights and clamps to the right anchor, not by solving a per-transition weighted objective under an equality constraint."}

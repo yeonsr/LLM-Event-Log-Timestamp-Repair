@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "cand = fwd + (bwd - fwd) * (fwd_w / total_w if total_w > 0 else 0.5)", "why": "It averages forward and backward single-gap estimates, using the right anchor only to back off one gap, not solving joint durations to fit the anchor span."}

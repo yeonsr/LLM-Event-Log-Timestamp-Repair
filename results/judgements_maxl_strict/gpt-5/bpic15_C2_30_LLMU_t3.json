@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "candidates.append(right_ts - pd.to_timedelta(expected_gap_seconds(act, right_act), unit=\"s\"))", "why": "It derives gaps by lookup and clamps to the right anchor, rather than solving a per\u2011transition weighted optimization under an equality constraint."}

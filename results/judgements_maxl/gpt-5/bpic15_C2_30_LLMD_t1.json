@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "mid = lo + (hi - lo) / 2", "why": "It averages left- and right-anchored guesses instead of jointly optimizing per-transition durations to fit the anchor span."}

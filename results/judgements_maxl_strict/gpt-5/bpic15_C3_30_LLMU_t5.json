@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [1.0 + extra * (x / total_raw_extra) for x in raw_extra]", "why": "It proportionally rescales gaps and then clamps to the right anchor rather than solving a transition-weighted optimization objective."}

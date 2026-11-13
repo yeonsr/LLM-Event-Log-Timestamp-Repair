@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "step = effective_gap * (w / total_w)", "why": "It proportionally allocates the span between anchors using looked-up weights and clamps to the right anchor, not solving a transition-weighted optimization objective."}

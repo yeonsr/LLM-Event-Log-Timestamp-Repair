@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "times = [left_ts + pd.Timedelta(seconds=total_window * (c / denom)) for c in cum]", "why": "It proportionally allocates the fixed left\u2013right span using precomputed gaps and then clamps, without solving any per-transition weighted objective."}

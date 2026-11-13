@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "prop_times.append(left_anchor + pd.Timedelta(seconds=total_window * frac))", "why": "It proportionally allocates the span between anchors using pairwise stats and clamps, not by solving a per-transition weighted objective."}

@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "cands.append(prev_t + (next_t - prev_t) * (left_gap / total))", "why": "It places the event within the anchor span proportionally to per-transition expected gaps, using both anchors and the right-anchor pair statistics."}

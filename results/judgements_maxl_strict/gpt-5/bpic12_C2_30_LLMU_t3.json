@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "extra = int(rem * (oe / total_extra)) if total_extra > 0 else int(rem / len(orig_extra))", "why": "Gaps are taken from lookups and then proportionally rescaled to fit before the right anchor, not obtained by solving a per-transition weighted optimization."}

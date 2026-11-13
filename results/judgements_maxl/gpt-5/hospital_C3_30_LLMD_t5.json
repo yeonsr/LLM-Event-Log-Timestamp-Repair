@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "b = case_rows.iloc[right_anchor_idx][\"Activity\"] if right_anchor_idx is not None else None", "why": "It incorporates the right anchor\u2019s label into the (a,b) pair and uses per-pair durations to weight gaps from both sides."}

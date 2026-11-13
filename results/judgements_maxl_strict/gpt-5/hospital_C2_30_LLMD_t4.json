@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "cands.append(next_t - td(preferred_gap_seconds(act, next_act)))", "why": "It directly uses a looked-up right-anchor gap and bounds/penalizes candidates rather than solving an equality-constrained, per-transition weighted optimization."}

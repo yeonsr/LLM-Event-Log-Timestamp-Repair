@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "scaled = [max(1.0, g * scale) for g in min_gaps]", "why": "It lays out gaps from the left using per-pair defaults and then proportionally rescales to fit before the right anchor, not jointly optimizing durations against both anchors."}

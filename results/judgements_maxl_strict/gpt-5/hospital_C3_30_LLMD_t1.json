@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "blend = (fwd[j].value * wr + bwd[j].value * wl + x) / (2.0 * (wl + wr))", "why": "It computes timestamps via heuristic averaging and bounds, not by optimizing an equality-constrained, per-transition weighted objective."}

@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "scaled = [max(1.0, g * target / raw_sum) for g in raw]", "why": "It proportionally rescales precomputed per-pair gaps to fit the right-anchor span instead of jointly optimizing durations against both anchors."}

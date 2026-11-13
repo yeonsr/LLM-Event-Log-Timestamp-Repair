@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "extra = int(rem * (oe / total_extra)) if total_extra > 0 else int(rem / len(orig_extra))", "why": "It proportionally rescales gaps to fit before the right anchor rather than solving a per-transition weighted optimization under an equality constraint."}

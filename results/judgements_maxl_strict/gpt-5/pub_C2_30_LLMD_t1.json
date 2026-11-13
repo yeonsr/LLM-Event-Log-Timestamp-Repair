@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "bwd = next_t - pd.to_timedelta(gap, unit=\"s\")", "why": "It looks up a single per-pair gap and interpolates/clamps rather than solving a constrained, per-transition-weighted objective."}

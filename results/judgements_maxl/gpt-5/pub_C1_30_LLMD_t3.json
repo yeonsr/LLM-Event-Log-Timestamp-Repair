@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "val = max(unit_ns, int(math.floor(weight * max_total_ns)))", "why": "It generates per-edge gaps then proportionally rescales them to fit the available span before the right anchor rather than jointly optimizing durations against both anchors."}

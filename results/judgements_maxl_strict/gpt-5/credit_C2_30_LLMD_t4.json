@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "    if next_t is not None and edge_exists(act, next_act):\n        cands.append(next_t - pd.Timedelta(seconds=expected_gap_seconds(act, next_act)))", "why": "It uses the right anchor to take a single looked-up gap as a candidate and only clamps within bounds, with no equality-constrained optimization or per-transition weighting."}

@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "room_right = max(0.0, seconds_between(shared, right_anchor[\"parsed\"]))", "why": "It uses the right anchor only to bound the span and then rescales/clamps precomputed gaps, not by solving a per\u2011transition weighted objective under an equality constraint."}

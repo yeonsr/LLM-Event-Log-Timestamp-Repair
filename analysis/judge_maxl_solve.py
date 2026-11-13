@@ -34,24 +34,27 @@ QUESTION = """Here is a repair program.
 Answer one question about how it uses the RIGHT anchor, that is the first
 clean event after the damaged segment.
 
-Does the program SOLVE for the gaps jointly against the two anchors, using a
-per-transition duration model? That means one of:
-  - it optimises or solves for durations subject to their sum equalling the
-    span between the anchors, weighting transitions by their own fitted
-    parameters (a likelihood, a variance, a per-pair sigma), or
-  - it fits the transition INTO the right anchor's own activity label from
-    that activity pair's statistics, so the right anchor participates in the
-    modelled chain.
+Does the program OPTIMISE the gaps under an equality constraint, the way a
+maximum-likelihood bridge does? To count, BOTH must hold:
+  (a) the durations are obtained by solving or optimising an objective -- a
+      likelihood, a squared-error or penalty term, an allocation computed from
+      fitted parameters -- not by taking a statistic and then adjusting it; and
+  (b) the objective is weighted PER TRANSITION by that transition's own fitted
+      parameters (its sigma, variance, log-mean or equivalent), so that
+      transitions absorb different shares of the available span.
 
-It is NOT this if the program merely:
-  - lays the block out forward from the left anchor and then clips, clamps,
-    truncates or proportionally rescales the result so it ends before the
-    right anchor,
-  - divides the interval uniformly or in proportion to sampled or median
-    gaps without any per-transition weighting,
-  - reads the right anchor only to bound or validate the output.
+It is NOT this if the program:
+  - lays the block out forward and then clips, clamps, truncates or
+    proportionally rescales it to end before the right anchor,
+  - divides the span uniformly, or in proportion to median or sampled gaps,
+    without per-transition weighting of the objective,
+  - merely looks up a duration statistic for the transition into the right
+    anchor's activity and uses it directly as a gap,
+  - reads the right anchor only to bound, score or validate a candidate.
 
-Those are the behaviours STAT also has; only the first description counts.
+Looking up a per-pair statistic is not optimisation. Rescaling in proportion
+to gaps is not per-transition weighting. Only a genuine constrained fit with
+transition-specific weights counts.
 
 Reply with JSON only:
 {{"solves": true or false, "evidence": "<the single most telling line of code, verbatim, or empty>", "why": "<one short sentence>"}}
@@ -106,7 +109,7 @@ def main():
     a = ap.parse_args()
     from openai import OpenAI
     client = OpenAI()
-    cache = os.path.join(ROOT, 'results', 'judgements_maxl', a.model)
+    cache = os.path.join(ROOT, 'results', 'judgements_maxl_strict', a.model)
     os.makedirs(cache, exist_ok=True)
     paths = sorted(glob.glob(os.path.join(PROGRAMS, '*.py')))
     if a.limit:
@@ -128,7 +131,7 @@ def main():
                                  maxl_solve=int(v['solves']),
                                  evidence=v['evidence'], why=v['why']))
     rows.sort(key=lambda r: (r['log'], r['category'], r['method'], r['trial']))
-    out = os.path.join(ROOT, 'results', 'maxl_solve_%s.csv' % a.model)
+    out = os.path.join(ROOT, 'results', 'maxl_solve_strict_%s.csv' % a.model)
     with io.open(out, 'w', encoding='utf-8', newline='') as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
         w.writeheader()

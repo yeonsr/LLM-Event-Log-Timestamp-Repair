@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(min_step_seconds, g * scale) for g in gaps]", "why": "It uses fixed per-edge statistics and proportionally rescales to fit the right anchor, not optimizing a transition-weighted objective."}

@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "val = max(unit_ns, int(math.floor(weight * max_total_ns)))", "why": "It proportionally rescales preset gaps to fit the span to the right anchor, not solving a per-transition weighted optimization objective."}

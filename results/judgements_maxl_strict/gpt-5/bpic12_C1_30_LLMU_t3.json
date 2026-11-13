@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "extra = int(rem * (oe / total_extra)) if total_extra > 0 else int(rem / len(orig_extra))", "why": "It proportionally rescales preset gaps to fit the span to the right anchor rather than solving a weighted optimization per transition."}

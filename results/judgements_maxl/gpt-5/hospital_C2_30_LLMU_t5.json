@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "gaps = compress_gaps(gaps, room)", "why": "It proportionally rescales gaps to fit before the right anchor rather than jointly optimizing durations with it."}

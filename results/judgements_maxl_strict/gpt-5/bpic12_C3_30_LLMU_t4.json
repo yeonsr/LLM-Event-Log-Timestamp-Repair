@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "total_gaps = compress_gaps(total_gaps, room, min_total)", "why": "It bounds to the right anchor by proportionally rescaling preset gaps, not by solving a per-transition weighted optimisation objective."}

@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "hi = min(case_end, hi_anchor) if hi_anchor is not None else case_end", "why": "It only bounds by the right anchor and clamps candidates; no equality-constrained optimization or per-transition weighted fit is performed."}

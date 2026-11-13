@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(min_step_seconds, g * ratio) for g in gaps]", "why": "It proportionally rescales preselected gap statistics to fit the right anchor span rather than solving a transition-weighted constrained optimization."}

@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [g * total / s for g in raw]", "why": "It proportionally rescales preset gaps and clamps to the right anchor, rather than optimizing a per-transition weighted objective under an equality constraint."}

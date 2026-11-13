@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "out.append(left_ts + slack * frac)", "why": "Events are placed by proportional allocation between anchors using looked-up gaps, not by optimizing a transition-weighted objective."}

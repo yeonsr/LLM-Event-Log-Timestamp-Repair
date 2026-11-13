@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "cands.append(right_t - pd.to_timedelta(expected_gap_seconds(act, right_act), unit=\"s\"))", "why": "It sets a candidate by subtracting a looked-up per-pair statistic from the right anchor and only scores/clamps candidates, not solving a per-transition weighted equality-constrained optimization."}

@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "span = min(raw_span, available)", "why": "It proportionally allocates gaps from heuristic estimates and then clamps to the right-anchor span, without solving a per-transition weighted objective."}

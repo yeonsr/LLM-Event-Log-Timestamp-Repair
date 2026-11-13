@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "times = ensure_distinct_forward(times, observed_dt, right_t)", "why": "It constructs gaps forward from the left and then only bounds/rescales to end before the right anchor, without optimizing gaps jointly or modeling a transition into the right anchor."}

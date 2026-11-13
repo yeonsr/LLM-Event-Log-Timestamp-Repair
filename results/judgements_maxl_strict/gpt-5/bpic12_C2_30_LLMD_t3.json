@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "candidates.append(right_ts - pd.Timedelta(seconds=gap))", "why": "It directly sets the time by subtracting a looked\u2011up gap from the right anchor (and then bounds it), not by solving a per\u2011transition weighted equality\u2011constrained objective."}

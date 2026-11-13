@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "raw_extra = extra * target_extra / scalable_total", "why": "Gaps are laid out per edge and then proportionally rescaled to fit before the right anchor, not jointly optimized against both anchors or integrated with the right anchor\u2019s activity."}

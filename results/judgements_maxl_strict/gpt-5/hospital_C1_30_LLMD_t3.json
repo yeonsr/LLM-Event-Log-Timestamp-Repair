@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [max(g * scale, min_gap_sec) for g in gaps]", "why": "It proportionally rescales guessed gaps to fit under the right-anchor bound and clamps, without solving a per-transition weighted objective."}

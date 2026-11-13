@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "cum = edge_prior_seconds(seq_acts[-1], right_act)", "why": "It uses the right anchor\u2019s activity-pair duration to chain into the anchor when assigning times."}

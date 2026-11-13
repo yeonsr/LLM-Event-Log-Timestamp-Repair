@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "span = min(raw_span, available)", "why": "It bounds the layout by the right anchor and proportionally distributes time based on looked-up gaps, without solving a per-transition weighted objective."}

@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "ts = clamp(g.loc[i, \"_candidate_ts\"], left_bound, right_bound)", "why": "It only bounds candidate times by the right clean anchor and scores heuristics; there is no constrained optimization allocating span via transition-specific weights."}

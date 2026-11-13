@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(min_gap, g * scale) for g in gaps]", "why": "It proportionally rescales preset gap estimates to fit before the right anchor instead of solving a per\u2011transition weighted constrained optimization."}

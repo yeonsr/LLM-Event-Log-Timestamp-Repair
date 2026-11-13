@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = base + int(math.floor(part * (extra / surplus))) if surplus > 0 else base", "why": "It proportionally rescales preselected per-pair gaps to fit within the right-anchor bound instead of solving a weighted objective per transition."}

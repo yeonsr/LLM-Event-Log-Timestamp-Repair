@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "scaled = [g / s * total_window for g in gaps]", "why": "It builds per-edge weights (including the gap to the right anchor) and scales them to fill the anchor span proportionally."}

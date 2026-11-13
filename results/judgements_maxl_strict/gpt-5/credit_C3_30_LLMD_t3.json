@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "sec = props[i] * window_sec", "why": "It places events by preset proportions and midpoint averaging between anchors rather than solving a per-transition weighted objective."}

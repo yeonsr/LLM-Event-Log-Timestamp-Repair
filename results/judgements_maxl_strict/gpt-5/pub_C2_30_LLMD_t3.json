@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "return right_ts - pd.Timedelta(seconds=float(gap)), gap", "why": "It directly subtracts a looked-up gap from the right anchor and only bounds/scores candidates, with no constrained optimization or per-transition weighted objective."}

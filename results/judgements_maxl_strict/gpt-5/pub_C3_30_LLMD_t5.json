@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "t_fit = left_anchor + p * interval", "why": "It proportionally places events within the anchor span and then chooses the closest candidate, without solving a per-transition weighted objective."}

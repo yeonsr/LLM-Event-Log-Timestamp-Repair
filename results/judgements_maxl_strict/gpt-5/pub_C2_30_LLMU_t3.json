@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "x += max(1.0, g * scale)", "why": "It fits the span to the right anchor by proportionally scaling preset gaps and clamping, not by solving a transition-weighted objective."}

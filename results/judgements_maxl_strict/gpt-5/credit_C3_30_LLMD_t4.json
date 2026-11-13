@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = left_anchor + pd.Timedelta(seconds=(scaled_prefix / pattern_total) * window)", "why": "It proportionally rescales cumulative per-transition priors to fit between anchors rather than solving a transition-weighted optimisation problem."}

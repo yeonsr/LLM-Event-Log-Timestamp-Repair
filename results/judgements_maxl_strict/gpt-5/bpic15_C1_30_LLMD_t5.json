@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [x * factor for x in raw]", "why": "It proportionally rescales precomputed per-pair gap statistics to fit before the right anchor rather than solving a weighted optimization with transition-specific parameters."}

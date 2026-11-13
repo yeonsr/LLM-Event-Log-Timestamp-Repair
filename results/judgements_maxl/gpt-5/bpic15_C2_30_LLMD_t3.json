@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "pen += gap_penalty(act, act_right, (right_ts - c).total_seconds())", "why": "It minimizes a two-sided objective using per-pair gap penalties to both anchors, jointly fitting the gaps against the anchor span."}

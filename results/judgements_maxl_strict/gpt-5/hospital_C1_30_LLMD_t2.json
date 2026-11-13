@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [min_step_sec + e * ratio for e in extra_pref]", "why": "It proportionally rescales preset per-pair gaps to fit within the right-anchor bound, not by optimizing a per-transition weighted objective under equality."}

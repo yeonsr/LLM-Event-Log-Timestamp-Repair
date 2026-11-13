@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "positions.append(left_t + (right_t - left_t) * cum)", "why": "It proportionally rescales gaps to fit between anchors rather than solving a per-transition weighted optimization objective."}

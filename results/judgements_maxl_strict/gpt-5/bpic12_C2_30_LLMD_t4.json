@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "est = clamp(est, lo, hi)", "why": "It averages candidate times and then clamps between anchors; there is no equality-constrained multi-gap fit or transition-specific variance weighting."}

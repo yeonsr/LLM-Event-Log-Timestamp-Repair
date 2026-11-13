@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "candidates.append(next_ts - pd.to_timedelta(right_gap, unit=\"s\"))", "why": "It directly subtracts a looked-up per-pair gap from the right anchor and then clamps feasibility, without solving a weighted objective under an equality constraint."}

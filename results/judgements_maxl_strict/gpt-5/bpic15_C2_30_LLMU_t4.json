@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [g * total / s for g in raw]", "why": "It proportionally rescales preset gaps to fit the right anchor instead of solving a per\u2011transition weighted objective."}

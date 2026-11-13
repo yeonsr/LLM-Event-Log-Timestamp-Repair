@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "scaled = [max(min_ns, int(g * target_total_ns / total_gap_ns)) for g in gaps_ns]", "why": "It proportionally rescales intra-block gaps to fit before the right anchor, without jointly optimizing or modeling a transition into the right anchor\u2019s activity."}

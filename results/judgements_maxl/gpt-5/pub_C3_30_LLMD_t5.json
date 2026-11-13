@@ -1,1 +1,0 @@
-{"solves": true, "evidence": "t_fit = left_anchor + p * interval", "why": "It allocates interior timestamps across the anchor span using positions derived from per-transition edge weights, jointly filling the interval between the two anchors."}

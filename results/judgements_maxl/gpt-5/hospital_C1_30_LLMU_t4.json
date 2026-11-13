@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "scaled = [max(1.0, g * scale) for g in min_gaps]", "why": "It computes per-pair gaps then proportionally rescales them to fit before the right anchor rather than jointly optimizing durations with anchor constraints."}

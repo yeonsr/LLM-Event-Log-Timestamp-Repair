@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "placed, clamped = enforce_within(placed, shared_ts, room_right)", "why": "It builds gaps from fixed statistics and then clamps/rescales to fit the right anchor, not solving a per-transition weighted objective."}

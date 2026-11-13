@@ -1,1 +1,0 @@
-{"solves": false, "evidence": "new_gaps = [1.0 + surplus * w / wsum for w in weights]", "why": "It forwards lays gaps by per-pair estimates then proportionally rescales to end at the right bound, without modeling a last-to-right duration or jointly optimizing against both anchors."}
