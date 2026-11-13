@@ -181,6 +181,47 @@ if os.path.exists(p):
               md(list(a.columns),
                  [[fmt(x, 3) if isinstance(x, float) else str(x) for x in r]
                   for r in a.values]), '']
+
+# ---- the narrow anchor question, which is the one Section 6.2 turns on
+for jm in ('gpt-5', 'gpt-4o'):
+    p = os.path.join(RES, 'maxl_solve_%s.csv' % jm)
+    if not os.path.exists(p):
+        continue
+    s = pd.read_csv(p)
+    parts += [
+        '## Two-sided anchor solving, asked narrowly (judge: %s)' % jm, '',
+        'The `r_evidence` row above asks whether a program uses the right '
+        'anchor as a constraint at all, and reads broadly: laying the block '
+        'out from the left anchor and then rescaling it proportionally to fit '
+        'the interval satisfies it, and that is what STAT does too. This '
+        'second pass asks only for the mechanism that separates MAXL from '
+        'STAT -- solving for the gaps under an equality constraint with a '
+        'per-transition duration model, or fitting the transition into the '
+        'right anchor\'s own activity -- and explicitly excludes clipping, '
+        'clamping and proportional rescaling. It is the narrow figure that '
+        'the discussion of MAXL relies on.', '',
+        md(['Scope', 'Programs', 'Solve jointly', 'Share'],
+           [['all', str(len(s)), str(int(s.maxl_solve.sum())),
+             fmt(100 * s.maxl_solve.mean(), 0) + '%']]
+           + [[c, str(len(s[s.category.eq(c)])),
+               str(int(s[s.category.eq(c)].maxl_solve.sum())),
+               fmt(100 * s[s.category.eq(c)].maxl_solve.mean(), 0) + '%']
+              for c in ('C1', 'C2', 'C3') if len(s[s.category.eq(c)])]
+           + [['%s / %s' % (a, c), str(len(s[s.method.eq(a) & s.category.eq(c)])),
+               str(int(s[s.method.eq(a) & s.category.eq(c)].maxl_solve.sum())),
+               fmt(100 * s[s.method.eq(a) & s.category.eq(c)].maxl_solve.mean(), 0) + '%']
+              for a in ('LLMU', 'LLMD') for c in ('C1', 'C2', 'C3')
+              if len(s[s.method.eq(a) & s.category.eq(c)])]), '',
+        'The split by arm is the sharpest thing here: no LLMU program solves '
+        'jointly anywhere, and every instance is LLMD, the arm whose prompt '
+        'carries the directly-follows graph and the activity duration '
+        'profiles. On C1 -- the category the comparison with MAXL is about -- '
+        'neither arm does it at all.', '']
+    ev = s[s.maxl_solve.eq(1)][['log', 'category', 'method', 'trial', 'evidence']]
+    if len(ev):
+        parts += ['The programs it finds, with the line cited:', '',
+                  md(['Log', 'Cat', 'Arm', 'Trial', 'Evidence'],
+                     [[str(x) for x in r] for r in ev.values]), '']
 io.open(os.path.join(OUT, 'strategies.md'), 'w',
         encoding='utf-8').write('\n'.join(parts))
 index.append(('strategies.md', 'Strategies and judge agreement', 0))

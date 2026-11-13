@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "room_right = max(0.0, seconds_between(shared, right_anchor[\"parsed\"]))", "why": "It only bounds and clamps the laid-out gaps relative to the right anchor rather than jointly optimizing durations using per-transition statistics."}

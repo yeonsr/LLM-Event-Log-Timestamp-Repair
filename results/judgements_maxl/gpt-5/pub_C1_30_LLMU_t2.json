@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "new_gaps = [1.0 + max(0.0, g - 1.0) * scale for g in gaps]", "why": "It proportionally rescales pre-estimated gaps to fit the right anchor window rather than solving a joint, per-transition weighted fit against both anchors."}

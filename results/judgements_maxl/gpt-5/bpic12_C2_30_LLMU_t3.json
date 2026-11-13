@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "extra = int(rem * (oe / total_extra)) if total_extra > 0 else int(rem / len(orig_extra))", "why": "It proportionally rescales precomputed gaps to fit before the right anchor instead of jointly optimizing durations with a model that includes the right anchor."}

@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "total_gaps = compress_gaps(gaps, available_room, min_total)", "why": "It proportionally rescales preset per-transition gaps to fit the right-anchor time window instead of jointly optimizing durations against both anchors or modeling a transition into the right anchor."}

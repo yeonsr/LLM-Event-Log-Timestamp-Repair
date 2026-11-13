@@ -1,0 +1,1 @@
+{"solves": true, "evidence": "right_est = (estimate_from_right(r2[\"Activity\"], next_row[\"Activity\"], next_row[\"parsed_ts\"])[0], choose_gap_seconds(r2[\"Activity\"], next_row[\"Activity\"]))", "why": "It fits the transition into the right anchor\u2019s activity using that pair\u2019s duration model and combines it with the left estimate."}

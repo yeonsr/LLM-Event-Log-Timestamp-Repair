@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [b + e * scale for b, e in zip(base_min, extra)]", "why": "It constructs per-edge gaps and then proportionally rescales them to fit the right bound, rather than jointly optimizing durations against both anchors using a transition-level model."}

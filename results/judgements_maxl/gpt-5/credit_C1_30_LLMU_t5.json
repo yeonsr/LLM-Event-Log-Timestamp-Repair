@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [max(1.0, g * factor) for g in gaps]", "why": "It computes per-pair guesses then proportionally rescales and clamps them to fit before the right anchor, rather than jointly solving durations against both anchors."}

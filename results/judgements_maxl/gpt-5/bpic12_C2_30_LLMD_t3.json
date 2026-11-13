@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "combined_ns = int((c1.value * w_l + c2.value * w_r) / (w_l + w_r))", "why": "It sets a single timestamp as a weighted average of left/right expected gaps and then bounds it, not jointly solving durations against both anchors."}

@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = compress_gaps(gaps, room)", "why": "It lays out estimated gaps and then proportionally compresses them to fit before the right anchor, without optimizing jointly or modeling a final transition into the right anchor."}

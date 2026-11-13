@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [g * factor for g in gaps]", "why": "It proportionally rescales precomputed per-edge gaps to fit before the right anchor instead of optimizing durations jointly with a likelihood or variance model."}

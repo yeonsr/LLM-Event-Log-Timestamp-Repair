@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(min_step_seconds, g * scale) for g in gaps]", "why": "It proportionally rescales precomputed gaps to fit a time bound rather than jointly optimizing durations against both anchors."}

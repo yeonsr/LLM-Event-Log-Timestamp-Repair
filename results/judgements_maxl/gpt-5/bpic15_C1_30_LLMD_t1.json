@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "room = max(0.0, (upper_anchor - observed_ts).total_seconds())", "why": "It lays out per-pair gaps then rescales or clamps them to fit within the time up to the right anchor, which is used only as a bound, not in a joint optimization with per-transition weighting."}

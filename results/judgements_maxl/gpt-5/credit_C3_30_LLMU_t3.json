@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "new_gaps = [1.0 + surplus * w / wsum for w in weights]", "why": "It first lays out pairwise durations then proportionally rescales gaps to fit the right bound, without jointly optimizing against both anchors or modeling the transition into the right anchor."}

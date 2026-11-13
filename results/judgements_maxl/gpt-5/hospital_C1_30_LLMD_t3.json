@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [max(g * scale, min_gap_sec) for g in gaps]", "why": "It proportionally rescales precomputed per-pair gaps to fit before the right anchor, rather than jointly optimizing durations or conditioning on the right anchor\u2019s activity."}

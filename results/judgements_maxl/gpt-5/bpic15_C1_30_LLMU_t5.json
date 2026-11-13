@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "available = max(0.0, td_seconds(observed_ts, right_anchor_ts))", "why": "It forwards from the observed start and only bounds by the right anchor, scaling/clamping internal gaps without jointly optimizing or modeling the right-anchor transition."}

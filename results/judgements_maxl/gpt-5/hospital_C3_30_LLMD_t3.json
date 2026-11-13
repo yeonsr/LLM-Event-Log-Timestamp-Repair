@@ -1,0 +1,1 @@
+{"solves": true, "evidence": "backward_candidate = right_clean[1] - pd.to_timedelta(span * frac, unit=\"s\")", "why": "It places events jointly between left and right anchors using the anchor span and per-transition weights from choose_edge_seconds to set the fractions."}

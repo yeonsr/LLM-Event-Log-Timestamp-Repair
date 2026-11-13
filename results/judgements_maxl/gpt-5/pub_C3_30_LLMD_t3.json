@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "use_span = min(expected_span, anchor_span)", "why": "It lays out the block using a preset span and then clamps against the right anchor, without jointly fitting per-transition gaps to the anchor span or incorporating the right anchor into the duration c"}

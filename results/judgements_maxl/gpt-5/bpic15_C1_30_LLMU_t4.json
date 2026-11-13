@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "room = max(0.0, seconds_between(start_dt, right_anchor))", "why": "It bounds and proportionally rescales the forward-laid gaps to fit before the right anchor rather than optimizing durations or modeling a final transition into the right anchor."}

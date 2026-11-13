@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "target = clamp_timestamp(target, left_est, right_est)", "why": "It only bounds the event between per-edge estimates from anchors and does not jointly optimize durations against the right anchor."}

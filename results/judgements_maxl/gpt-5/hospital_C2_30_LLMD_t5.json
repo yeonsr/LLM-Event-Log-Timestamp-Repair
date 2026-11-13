@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "preferred = min(preferreds, key=lambda t: abs((t - obs).total_seconds()) if obs is not None else 0)", "why": "It picks either a left- or right-based single-gap estimate and clamps within bounds, without jointly solving durations against both anchors."}

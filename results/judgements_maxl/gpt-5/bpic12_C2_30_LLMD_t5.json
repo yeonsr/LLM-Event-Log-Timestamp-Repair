@@ -1,0 +1,1 @@
+{"solves": true, "evidence": "d = choose_duration_seconds(act, right_a)", "why": "It computes a candidate as the right timestamp minus a per-pair duration using the right anchor\u2019s activity, so the right anchor participates beyond mere bounding."}

@@ -74,9 +74,11 @@ data for loading.
 | `results/strategy_judgements_gpt-5.csv` | the strategies each program implements, as judged by GPT-5 |
 | `results/strategy_judgements_gpt-4o.csv` | the same, by a second judge, for the agreement check |
 | `results/judge_agreement.csv` | per-strategy agreement between the two judges |
+| `results/maxl_solve_gpt-5.csv` | a second, narrower judging pass on two-sided anchor solving |
 | `results/strategy_regression_*.csv` | the strategy vector regressed on log10(MedAE / B0) |
 | `results/strategy_features.csv` | a static pattern scan of the same programs, kept as a cross-check |
 | `results/judgements/<model>/*.json` | every verdict with the line of code it cites |
+| `results/judgements_maxl/<model>/*.json` | the same for the narrow anchor question |
 
 The paper reports the subset with `scope == "ALL_POLLUTED"` at the 30 % pollution
 level. The files also contain material the paper does not discuss:
@@ -102,6 +104,24 @@ how much of each judge's cited evidence is verbatim in the source, and
 pattern-based `analysis/strategy_scan.py` is kept as an independent
 cross-check; it under-detects any strategy written as arithmetic rather than
 as a recognisable call, so the judged labels are the ones reported.
+
+## Two questions about the right anchor
+
+The strategy list asks whether a program uses the right anchor as a constraint
+at all. That reads broadly: a program that lays the block out from the left
+anchor and then rescales it proportionally to fit the interval satisfies it,
+and so does STAT. Asked that way, 98 % of programs qualify.
+
+`analysis/judge_maxl_solve.py` asks the narrow question that the comparison
+with MAXL actually turns on -- solving for the gaps under an equality
+constraint with a per-transition duration model, or fitting the transition
+into the right anchor's own activity -- and excludes clipping, clamping and
+proportional rescaling explicitly. Asked that way, 28 of 148 programs qualify,
+none of them on C1 and none of them from LLMU.
+
+Both figures are published because the gap between them is the finding: the
+broad property is near-universal and tells you little, while the mechanism
+that explains MAXL's advantage is absent exactly where MAXL wins.
 
 ## Notes on the released results
 

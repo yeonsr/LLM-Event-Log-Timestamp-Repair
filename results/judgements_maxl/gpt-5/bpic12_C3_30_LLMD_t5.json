@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "offsets = [x * scale for x in offsets]", "why": "It uniformly rescales intra-block gaps to fit within the anchors, using the right anchor only as a boundary and not modeling a transition into it."}

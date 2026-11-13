@@ -1,0 +1,1 @@
+{"solves": true, "evidence": "step = effective_gap * (w / total_w)", "why": "It proportionally allocates the total anchor-to-anchor span across gaps using per-transition weights from the duration profiles, thus solving jointly."}

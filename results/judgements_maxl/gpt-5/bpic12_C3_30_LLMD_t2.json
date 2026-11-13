@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "secs = [s * ratio for s in cumulative]", "why": "It builds cumulative gaps from the left and then proportionally rescales them to fit the span between anchors, without jointly solving or using the right anchor\u2019s activity in the duration model."}

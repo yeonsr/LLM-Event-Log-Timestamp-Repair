@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled_steps = [max(min_step, s * factor) for s in steps]", "why": "It lays out per-pair durations and then proportionally rescales/clamps them to fit before the right anchor, rather than jointly optimizing to the anchor span or modeling a transition into the right an"}

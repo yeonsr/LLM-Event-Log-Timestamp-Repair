@@ -1,0 +1,1 @@
+{"solves": true, "evidence": "target = preferred_gap(this_act, right_act)", "why": "It selects the new timestamp by minimizing deviations to preferred gaps for both left and right transitions, explicitly using the right pair\u2019s duration profile."}

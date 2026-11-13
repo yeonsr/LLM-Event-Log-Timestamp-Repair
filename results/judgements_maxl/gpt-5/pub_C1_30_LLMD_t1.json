@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "offsets, needed_clamp = compress_offsets(offsets, room_right, unit)", "why": "It generates per-pair gaps and then proportionally compresses them to fit before the right anchor, without jointly optimizing to the span or modeling a transition into the right anchor."}

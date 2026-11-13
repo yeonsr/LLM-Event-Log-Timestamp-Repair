@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(g * scale, step_sec) for g in gaps]", "why": "It simply rescales forward-laid gaps to fit before the right anchor instead of jointly solving or modeling a gap to the right anchor\u2019s activity."}

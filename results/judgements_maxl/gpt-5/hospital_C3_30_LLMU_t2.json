@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scale = max_span / raw_span", "why": "It computes internal gaps from per-pair quantiles and then uniformly rescales them to fit before the right anchor, rather than jointly optimizing durations with the right anchor in the model."}

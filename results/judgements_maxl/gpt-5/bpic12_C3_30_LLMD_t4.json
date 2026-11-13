@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [left_dt + pd.to_timedelta(o * scale, unit=\"s\") for o in offsets]", "why": "It proportionally rescales precomputed internal offsets to the anchor span rather than solving durations jointly or using the right anchor\u2019s activity pair statistics."}

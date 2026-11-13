@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(min_gap, g * scale) for g in gaps]", "why": "It proportionally rescales gaps to fit before the right anchor instead of jointly optimizing with a per-transition model or modeling a transition into the right anchor."}

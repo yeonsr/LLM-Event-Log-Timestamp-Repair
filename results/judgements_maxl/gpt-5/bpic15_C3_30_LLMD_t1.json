@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "candidate = choose_within_window(left_t, right_t, left_est, right_est)", "why": "It simply picks between independent left/right projections and clamps to anchors without jointly solving durations to match the anchor span or weighting per-transition."}

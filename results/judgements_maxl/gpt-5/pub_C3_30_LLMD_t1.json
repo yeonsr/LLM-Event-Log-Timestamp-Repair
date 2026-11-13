@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "times = [left2 + timedelta_seconds(r * usable) for r in ratios]", "why": "It proportionally rescales cumulative per-edge weights to fit the interval between anchors instead of solving an optimization across both anchors."}

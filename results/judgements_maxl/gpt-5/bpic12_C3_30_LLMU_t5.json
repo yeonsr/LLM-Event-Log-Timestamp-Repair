@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "factor = available_forward / scaled[-1] if scaled[-1] > 0 else 1.0", "why": "It lays out by estimates and then proportionally rescales to fit the right anchor, rather than jointly optimizing gaps using a per-transition model."}

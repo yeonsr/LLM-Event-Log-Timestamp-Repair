@@ -1,0 +1,1 @@
+{"solves": true, "evidence": "rev_gaps.append(choose_gap(acts[i], current_next, n + 1, i))", "why": "It back-propagates per-pair gaps seeded with the right anchor\u2019s activity, so transitions into the right anchor are modeled rather than merely bounded."}

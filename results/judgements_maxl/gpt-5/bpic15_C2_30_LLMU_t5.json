@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "span = min(raw_span, available)", "why": "It distributes internal gaps from the left timestamp and only caps the total by the right anchor, rather than jointly optimizing durations against both anchors or modeling the final transition into th"}

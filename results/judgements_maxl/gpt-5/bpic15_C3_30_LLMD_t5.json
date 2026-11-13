@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "cost += abs((cc - left_ts).total_seconds() - left_gap)", "why": "It places each event independently by minimizing deviation to single left/right gap targets rather than jointly optimizing durations to match the span between anchors."}

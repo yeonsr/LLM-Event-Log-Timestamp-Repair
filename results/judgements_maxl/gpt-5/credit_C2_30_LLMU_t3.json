@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "placed, clamped = enforce_within(placed, shared_ts, room_right)", "why": "It lays out gaps forward from the start using per-pair medians and then clamps/rescales to fit before the right anchor, rather than jointly solving with a model including the right anchor."}

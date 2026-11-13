@@ -1,0 +1,1 @@
+{"solves": true, "evidence": "cost += plausibility_cost(td_seconds(right_ts - cand), act, right_act)", "why": "It models the gap into the right anchor using the (act, right_act) duration profile when selecting the timestamp, not merely as a bound."}

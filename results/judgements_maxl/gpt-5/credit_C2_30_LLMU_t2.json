@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "new_gaps, was_clamped = compress_gaps(gaps, available_room)", "why": "It lays out from the left timestamp using per-pair gap estimates and then proportionally compresses to fit the right anchor, without jointly optimizing durations or integrating the right anchor\u2019s tran"}

@@ -1,0 +1,1 @@
+{"solves": true, "evidence": "score += profile_score(act, right_act, (right_ts - cand).total_seconds())", "why": "It minimizes a score that includes a per-transition duration cost into the right anchor\u2019s activity, jointly considering both anchors."}

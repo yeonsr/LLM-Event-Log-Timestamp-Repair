@@ -60,3 +60,56 @@ Share of the 148 programs implementing each strategy, overall and by error categ
 | firstts | 0.574 | 0.669 | 0.905 | 0 | 14 |
 | monotone | 0.973 | 0.993 | 0.980 | 0 | 3 |
 | fallback | 0.973 | 1.000 | 0.973 | 0 | 4 |
+
+## Two-sided anchor solving, asked narrowly (judge: gpt-5)
+
+The `r_evidence` row above asks whether a program uses the right anchor as a constraint at all, and reads broadly: laying the block out from the left anchor and then rescaling it proportionally to fit the interval satisfies it, and that is what STAT does too. This second pass asks only for the mechanism that separates MAXL from STAT -- solving for the gaps under an equality constraint with a per-transition duration model, or fitting the transition into the right anchor's own activity -- and explicitly excludes clipping, clamping and proportional rescaling. It is the narrow figure that the discussion of MAXL relies on.
+
+| Scope | Programs | Solve jointly | Share |
+|---|---|---|---|
+| all | 148 | 28 | 19% |
+| C1 | 49 | 0 | 0% |
+| C2 | 50 | 12 | 24% |
+| C3 | 49 | 16 | 33% |
+| LLMU / C1 | 25 | 0 | 0% |
+| LLMU / C2 | 25 | 0 | 0% |
+| LLMU / C3 | 25 | 0 | 0% |
+| LLMD / C1 | 24 | 0 | 0% |
+| LLMD / C2 | 25 | 12 | 48% |
+| LLMD / C3 | 24 | 16 | 67% |
+
+The split by arm is the sharpest thing here: no LLMU program solves jointly anywhere, and every instance is LLMD, the arm whose prompt carries the directly-follows graph and the activity duration profiles. On C1 -- the category the comparison with MAXL is about -- neither arm does it at all.
+
+The programs it finds, with the line cited:
+
+| Log | Cat | Arm | Trial | Evidence |
+|---|---|---|---|---|
+| bpic12 | C2 | LLMD | 1 | target = preferred_gap(this_act, right_act) |
+| bpic12 | C2 | LLMD | 5 | d = choose_duration_seconds(act, right_a) |
+| bpic12 | C3 | LLMD | 1 | scaled = [g / s * total_window for g in gaps] |
+| bpic12 | C3 | LLMD | 3 | last = choose_edge_gap(acts[-1], right_act) |
+| bpic15 | C2 | LLMD | 2 | g = prof_gap(acts[idx_local], acts[right_idx]) |
+| bpic15 | C2 | LLMD | 3 | pen += gap_penalty(act, act_right, (right_ts - c).total_seconds()) |
+| bpic15 | C2 | LLMD | 4 | score += duration_penalty(act, next_act, max(0.0, (t_next - c).total_seconds())) |
+| bpic15 | C3 | LLMD | 2 | step = effective_gap * (w / total_w) |
+| bpic15 | C3 | LLMD | 3 | total_window = (right_anchor - left_anchor).total_seconds() |
+| credit | C2 | LLMD | 2 | cost += plausibility_cost(td_seconds(right_ts - cand), act, right_act) |
+| credit | C2 | LLMD | 5 |         if right_t is not None:
+            score += gap_penalty((right_t - c).total_seconds(), act, right_act) |
+| credit | C3 | LLMD | 2 | positions.append(left_t + (right_t - left_t) * cum) |
+| credit | C3 | LLMD | 3 | last_w = edge_weight_seconds(acts[-1], next_act) if n and next_act is not None else None |
+| credit | C3 | LLMD | 4 | cum = edge_prior_seconds(seq_acts[-1], right_act) |
+| credit | C3 | LLMD | 5 | weights.append(max(right_w if right_w is not None else fallback_gap(), 0.0)) |
+| hospital | C2 | LLMD | 1 | sec = choose_stat((act, next_act)) if edge_exists(act, next_act) else GLOBAL_MEDIAN |
+| hospital | C2 | LLMD | 3 | e = right_t - pd.to_timedelta(duration_prior(act, right_a), unit="s") |
+| hospital | C2 | LLMD | 4 | cands.append(prev_t + (next_t - prev_t) * (left_gap / total)) |
+| hospital | C3 | LLMD | 1 | gap = choose_edge_gap_seconds(act, nxt) |
+| hospital | C3 | LLMD | 2 | times = [left_ts + pd.Timedelta(seconds=total_window * (c / denom)) for c in cum] |
+| hospital | C3 | LLMD | 3 | backward_candidate = right_clean[1] - pd.to_timedelta(span * frac, unit="s") |
+| hospital | C3 | LLMD | 4 | rev_gaps.append(choose_gap(acts[i], current_next, n + 1, i)) |
+| hospital | C3 | LLMD | 5 | b = case_rows.iloc[right_anchor_idx]["Activity"] if right_anchor_idx is not None else None |
+| pub | C2 | LLMD | 2 | score += profile_score(act, right_act, (right_ts - cand).total_seconds()) |
+| pub | C2 | LLMD | 3 | right_est = (estimate_from_right(r2["Activity"], next_row["Activity"], next_row["parsed_ts"])[0], choose_gap_seconds(r2["Activity"], next_row["Activity"])) |
+| pub | C3 | LLMD | 2 | chain_acts = ([prev_act] if prev_act is not None else []) + activities + ([next_act] if next_act is not None else []) |
+| pub | C3 | LLMD | 4 | t = left_ts + pd.Timedelta(seconds=left_pad + usable * frac) |
+| pub | C3 | LLMD | 5 | t_fit = left_anchor + p * interval |

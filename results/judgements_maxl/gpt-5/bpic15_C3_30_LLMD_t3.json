@@ -1,0 +1,1 @@
+{"solves": true, "evidence": "total_window = (right_anchor - left_anchor).total_seconds()", "why": "It proportionally allocates event times across the left\u2013right anchor span using per-pair duration weights from the model."}

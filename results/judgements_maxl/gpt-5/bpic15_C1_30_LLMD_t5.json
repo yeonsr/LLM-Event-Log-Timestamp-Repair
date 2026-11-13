@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "factor = room_s / total", "why": "It proportionally rescales precomputed gaps to fit before the right anchor instead of optimizing durations or modeling a transition into the right anchor."}

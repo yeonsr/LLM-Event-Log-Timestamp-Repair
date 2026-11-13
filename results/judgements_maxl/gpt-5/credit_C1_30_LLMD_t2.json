@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scale = room_right / pref_total if pref_total > 0 else Decimal(\"1\")", "why": "It proportionally rescales internal per-transition gaps to fit before the right anchor rather than jointly optimizing durations or modeling the transition into the right anchor."}

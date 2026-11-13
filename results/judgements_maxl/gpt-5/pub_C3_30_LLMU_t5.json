@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [max(1.0, g * target / raw_sum) for g in raw]", "why": "It lays out pairwise gaps then proportionally rescales to fit before the right anchor rather than jointly solving durations with the right anchor in the model."}

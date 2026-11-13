@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [max(1.0, g * scale) for g in raw_gaps]", "why": "It lays out gaps from the left and then proportionally rescales/clamps to fit the right anchor, with no joint optimization or per-transition variance-based weighting."}

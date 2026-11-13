@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [g * room / total for g in pos_gaps]", "why": "It proportionally rescales pre-guessed gaps to fit before the right anchor instead of jointly optimizing durations or modeling the final transition into the right anchor."}

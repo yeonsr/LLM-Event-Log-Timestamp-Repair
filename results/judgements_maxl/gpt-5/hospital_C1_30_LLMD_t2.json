@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "ratio = target_extra / extra_sum if extra_sum > 0 else 0.0", "why": "It proportionally rescales preferred gaps to fit within right-anchor room and clamps, rather than jointly optimizing durations against both anchors or fitting into the right-anchor transition model."}

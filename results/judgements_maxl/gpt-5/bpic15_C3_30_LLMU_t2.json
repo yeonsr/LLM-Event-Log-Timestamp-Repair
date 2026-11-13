@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(min_step_seconds, g * ratio) for g in gaps]", "why": "It determines per-pair gaps independently and then proportionally rescales them to fit before the right anchor, without jointly optimizing against both anchors or modeling a final transition into the "}

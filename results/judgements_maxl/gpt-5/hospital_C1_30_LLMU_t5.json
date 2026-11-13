@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = compress_gaps(gaps, room)", "why": "It computes per-pair gaps internally and then rescales them to fit within the right anchor\u2019s time window, using the right anchor only as a bound rather than in a joint optimization including the right"}

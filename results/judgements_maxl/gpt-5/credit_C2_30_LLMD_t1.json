@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "est = pd.Timestamp(int(sum(e.value for e in estimates) / len(estimates)))", "why": "It averages left/right estimates and then clamps to anchors, not optimizing gaps jointly or enforcing a sum constraint with per-transition weighting."}

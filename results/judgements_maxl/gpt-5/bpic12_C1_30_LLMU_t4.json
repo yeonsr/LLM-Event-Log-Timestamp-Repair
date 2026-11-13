@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [shared_ts + pd.Timedelta(seconds=(r / raw_total) * target_span) for r in raw]", "why": "It lays out from the left timestamp using per-pair medians and then proportionally rescales to fit before the right anchor, without optimizing durations jointly or modeling a transition into the right"}

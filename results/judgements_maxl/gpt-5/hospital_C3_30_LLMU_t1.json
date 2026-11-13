@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "gaps = [max(1.0, g * scale) for g in gaps]", "why": "It lays out gaps from the left and proportionally rescales them to fit before the right anchor without modeling durations into the right anchor\u2019s activity."}

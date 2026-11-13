@@ -1,0 +1,1 @@
+{"solves": false, "evidence": "scaled = [max(1.0, g * scale) for g in raw_gaps]", "why": "It constructs gaps from the left and uniformly rescales them to fit before the right anchor instead of jointly optimizing per-transition durations or modeling the final transition into the right ancho"}
